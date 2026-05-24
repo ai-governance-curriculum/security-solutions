@@ -6,7 +6,7 @@ Reference for [learning project 1](https://github.com/ai-infra-curriculum/ai-inf
 
 | Component | Implementation location |
 |---|---|
-| NetworkPolicy default-deny + allow | [engineer-solutions/mod-104 ex-14](https://github.com/ai-infra-curriculum/ai-infra-engineer-solutions/tree/main/modules/mod-104-kubernetes/exercise-14-resource-quotas-multitenancy) + [mlops-solutions/mod-09 ex-04](https://github.com/ai-infra-curriculum/ai-infra-mlops-solutions/tree/main/modules/09-security/exercise-04-container-runtime-security) |
+| NetworkPolicy default-deny + allow | [engineer-solutions/mod-104 ex-14](https://github.com/ai-infra-curriculum/ai-infra-engineer-solutions/tree/main/modules/mod-104-kubernetes/exercise-14-resource-quotas-multitenancy) + [mlops-solutions/mod-09 ex-04 (pod security + NetworkPolicy)](https://github.com/ai-infra-curriculum/ai-infra-mlops-solutions/tree/main/modules/09-security/exercise-04) |
 | mTLS via Istio | see `istio/` below |
 | SPIFFE identity | see `spire/` below |
 | Vault + ESO | [engineer-solutions/mod-109 ex-07](https://github.com/ai-infra-curriculum/ai-infra-engineer-solutions/tree/main/modules/mod-109-infrastructure-as-code/exercise-07-secret-management) |
