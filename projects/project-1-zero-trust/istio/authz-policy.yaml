@@ -1,0 +1,16 @@
+# Default-deny + explicit-allow at the mesh layer.
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata: { name: default-deny, namespace: iris }
+spec: {}    # empty = deny all
+---
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata: { name: allow-from-ingress, namespace: iris }
+spec:
+  selector: { matchLabels: { app: iris-api } }
+  rules:
+    - from:
+        - source: { principals: ["cluster.local/ns/ingress-nginx/sa/ingress-nginx"] }
+      to:
+        - operation: { methods: [GET, POST], paths: ["/predict", "/health"] }

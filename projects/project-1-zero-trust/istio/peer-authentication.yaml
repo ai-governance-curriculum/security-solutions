@@ -1,0 +1,14 @@
+apiVersion: security.istio.io/v1beta1
+kind: PeerAuthentication
+metadata:
+  name: default
+  namespace: istio-system
+spec:
+  mtls: { mode: STRICT }
+---
+# Per-namespace overrides if any service legitimately needs PLAIN (rare)
+apiVersion: security.istio.io/v1beta1
+kind: PeerAuthentication
+metadata: { name: legacy-mode, namespace: legacy }
+spec:
+  mtls: { mode: PERMISSIVE }

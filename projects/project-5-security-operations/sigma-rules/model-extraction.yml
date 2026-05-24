@@ -1,0 +1,26 @@
+title: Possible model extraction attack
+id: 8f3b2c5a-9e1d-4a8f-b6c2-3d5e7f8a9b0c
+status: stable
+description: |
+  Detects abnormal query patterns suggestive of model extraction (high QPS
+  from one identity with diverse inputs over short window).
+references:
+  - https://atlas.mitre.org/techniques/AML.T0024.000
+author: ml-soc
+date: 2026-05-23
+logsource:
+  product: ml-platform
+  service: inference-gateway
+detection:
+  high_rate:
+    user.id|exists: true
+    request.count_1h: '>10000'
+  diverse_inputs:
+    request.unique_features_ratio_1h: '>0.95'
+  condition: high_rate and diverse_inputs
+falsepositives:
+  - legitimate benchmark / load test (whitelist via user tag)
+level: high
+tags:
+  - attack.t1213    # data from information repositories
+  - atlas.t0024.000 # ml.model-extraction

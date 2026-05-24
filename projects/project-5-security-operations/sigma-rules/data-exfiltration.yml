@@ -1,0 +1,19 @@
+title: Data exfiltration via outbound traffic
+id: 1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p
+status: stable
+description: Pod with ML data label making large outbound transfer.
+logsource:
+  product: kubernetes
+  service: cilium
+detection:
+  outbound_bulk:
+    container.label.data_class|contains: ['pii', 'phi', 'confidential']
+    network.bytes_out: '>1000000000'    # > 1 GB out
+    duration_minutes: '<5'
+  condition: outbound_bulk
+falsepositives:
+  - legitimate backup to allowed S3 bucket (verify destination)
+level: critical
+tags:
+  - attack.t1041
+  - atlas.t0025    # ml.data-exfiltration
