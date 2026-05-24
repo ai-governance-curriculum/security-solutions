@@ -66,8 +66,8 @@ ai-infra-security-solutions/
 
 ## Related Resources
 
-- [Security Learning Repository](../../learning/ai-infra-security-learning/)
-- [Engineer Track](../../learning/ai-infra-engineer-learning/)
+- [Security Learning Repository](https://github.com/ai-infra-curriculum/ai-infra-security-learning)
+- [Engineer Track](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning)
 
 ---
 
