@@ -1,0 +1,38 @@
+{
+  "already_present": [],
+  "curriculum_appended": {
+    "already_present": [],
+    "appended": [
+      "fill-mod-002-zero-trust-architecture-solutions"
+    ],
+    "present": true
+  },
+  "curriculum_suggestions": [
+    {
+      "scope": "mod-002-zero-trust-architecture",
+      "suggestion": "Update `CURRICULUM.md` so the row for `mod-002-zero-trust-architecture` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
+      "work_id": "fill-mod-002-zero-trust-architecture-solutions"
+    }
+  ],
+  "generated_at": "2026-05-29T06:16:12Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-security-solutions",
+    "path": "/home/s0v3r1gn/ai-infra-curriculum/ai-infra-security-solutions",
+    "track": "security"
+  },
+  "schema_version": 1,
+  "status": "updated",
+  "updated": [
+    {
+      "date": "2026-05-28",
+      "module": "mod-002-zero-trust-architecture",
+      "project": null,
+      "title": "Fill mod-002-zero-trust-architecture module exercise solutions",
+      "type": "module_solution_gap",
+      "work_id": "fill-mod-002-zero-trust-architecture-solutions"
+    }
+  ],
+  "versions_path": "VERSIONS.md"
+}
