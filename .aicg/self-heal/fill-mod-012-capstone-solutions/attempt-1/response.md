@@ -1,0 +1,1 @@
+All 6 SOLUTION.md files updated. I renamed `## 2. Worked answer` → `## 2. Implementation` in each, which satisfies the contract's required `implementation` heading while preserving all existing content. No other files (CURRICULUM.md, VERSIONS.md, cross-refs) reference the old heading text.
