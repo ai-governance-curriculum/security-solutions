@@ -1,0 +1,1527 @@
+{
+  "audit_summary": {
+    "error_count": 73,
+    "gap_count": 73,
+    "module_count": 12,
+    "project_count": 5,
+    "status": "fail",
+    "warning_count": 0
+  },
+  "backlog_item_count": 0,
+  "backlog_items": [],
+  "generated_at": "2026-05-29T13:00:27Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-security-solutions",
+    "path": "/home/s0v3r1gn/ai-infra-curriculum/ai-infra-security-solutions",
+    "track": "security"
+  },
+  "schema_version": 2,
+  "work_item_count": 12,
+  "work_items": [
+    {
+      "actions": [
+        {
+          "path": "modules/mod-001-ml-security-foundations",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md",
+          "source_exercise": "lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md",
+          "source_exercise": "lessons/mod-001-ml-security-foundations/exercises/exercise-02-map-system-to-owasp-ml-top-10.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md",
+          "source_exercise": "lessons/mod-001-ml-security-foundations/exercises/exercise-03-mitre-atlas-walkthrough.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md",
+          "source_exercise": "lessons/mod-001-ml-security-foundations/exercises/exercise-04-security-architecture-review.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md",
+          "source_exercise": "lessons/mod-001-ml-security-foundations/exercises/exercise-05-defense-in-depth-design.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system",
+          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "threat-model-a-small-ml-system",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 Threat-Model a Small ML System"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10",
+          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-02-map-system-to-owasp-ml-top-10.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "map-system-to-owasp-ml-top-10",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 Map a System to OWASP ML Top 10"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough",
+          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-03-mitre-atlas-walkthrough.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "mitre-atlas-walkthrough",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 MITRE ATLAS Walkthrough"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review",
+          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-04-security-architecture-review.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "security-architecture-review",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Security Architecture Review"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design",
+          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-05-defense-in-depth-design.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "defense-in-depth-design",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Defense-in-Depth Design"
+        }
+      ],
+      "id": "fill-mod-001-ml-security-foundations-solutions",
+      "module": "mod-001-ml-security-foundations",
+      "priority": 1,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-001-ml-security-foundations module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-002-zero-trust-architecture",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-002-zero-trust-architecture/exercise-01-zero-trust-gap-analysis/SOLUTION.md",
+          "source_exercise": "lessons/mod-002-zero-trust-architecture/exercises/exercise-01-zero-trust-gap-analysis.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-002-zero-trust-architecture/exercise-02-workload-identity-design/SOLUTION.md",
+          "source_exercise": "lessons/mod-002-zero-trust-architecture/exercises/exercise-02-workload-identity-design.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-002-zero-trust-architecture/exercise-03-microsegmentation-plan/SOLUTION.md",
+          "source_exercise": "lessons/mod-002-zero-trust-architecture/exercises/exercise-03-microsegmentation-plan.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-002-zero-trust-architecture/exercise-04-service-mesh-authz/SOLUTION.md",
+          "source_exercise": "lessons/mod-002-zero-trust-architecture/exercises/exercise-04-service-mesh-authz.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-002-zero-trust-architecture/exercise-05-zero-trust-roadmap/SOLUTION.md",
+          "source_exercise": "lessons/mod-002-zero-trust-architecture/exercises/exercise-05-zero-trust-roadmap.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-002-zero-trust-architecture/exercise-01-zero-trust-gap-analysis",
+          "learning_path": "lessons/mod-002-zero-trust-architecture/exercises/exercise-01-zero-trust-gap-analysis.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "zero-trust-gap-analysis",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 Zero-Trust Gap Analysis"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-002-zero-trust-architecture/exercise-02-workload-identity-design",
+          "learning_path": "lessons/mod-002-zero-trust-architecture/exercises/exercise-02-workload-identity-design.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "workload-identity-design",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 Workload Identity Design"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-002-zero-trust-architecture/exercise-03-microsegmentation-plan",
+          "learning_path": "lessons/mod-002-zero-trust-architecture/exercises/exercise-03-microsegmentation-plan.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "microsegmentation-plan",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 Microsegmentation Plan (3 layers)"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-002-zero-trust-architecture/exercise-04-service-mesh-authz",
+          "learning_path": "lessons/mod-002-zero-trust-architecture/exercises/exercise-04-service-mesh-authz.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "service-mesh-authz",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Service-Mesh Authorization Policy"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-002-zero-trust-architecture/exercise-05-zero-trust-roadmap",
+          "learning_path": "lessons/mod-002-zero-trust-architecture/exercises/exercise-05-zero-trust-roadmap.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "zero-trust-roadmap",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Zero-Trust Roadmap"
+        }
+      ],
+      "id": "fill-mod-002-zero-trust-architecture-solutions",
+      "module": "mod-002-zero-trust-architecture",
+      "priority": 2,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf",
+          "nist-sp-800-207",
+          "kubernetes-docs"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-002-zero-trust-architecture module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-003-cryptography-for-ml",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-003-cryptography-for-ml/exercise-01-key-management-plan/SOLUTION.md",
+          "source_exercise": "lessons/mod-003-cryptography-for-ml/exercises/exercise-01-key-management-plan.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-003-cryptography-for-ml/exercise-02-tls-mtls-audit/SOLUTION.md",
+          "source_exercise": "lessons/mod-003-cryptography-for-ml/exercises/exercise-02-tls-mtls-audit.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-003-cryptography-for-ml/exercise-03-signed-artifact-rollout/SOLUTION.md",
+          "source_exercise": "lessons/mod-003-cryptography-for-ml/exercises/exercise-03-signed-artifact-rollout.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-003-cryptography-for-ml/exercise-04-certificate-runbook/SOLUTION.md",
+          "source_exercise": "lessons/mod-003-cryptography-for-ml/exercises/exercise-04-certificate-runbook.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-003-cryptography-for-ml/exercise-05-encryption-in-use-decision/SOLUTION.md",
+          "source_exercise": "lessons/mod-003-cryptography-for-ml/exercises/exercise-05-encryption-in-use-decision.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-003-cryptography-for-ml/exercise-01-key-management-plan",
+          "learning_path": "lessons/mod-003-cryptography-for-ml/exercises/exercise-01-key-management-plan.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "key-management-plan",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 Key Management Plan"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-003-cryptography-for-ml/exercise-02-tls-mtls-audit",
+          "learning_path": "lessons/mod-003-cryptography-for-ml/exercises/exercise-02-tls-mtls-audit.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "tls-mtls-audit",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 TLS / mTLS Configuration Audit"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-003-cryptography-for-ml/exercise-03-signed-artifact-rollout",
+          "learning_path": "lessons/mod-003-cryptography-for-ml/exercises/exercise-03-signed-artifact-rollout.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "signed-artifact-rollout",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 Signed-Artifact Rollout Plan"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-003-cryptography-for-ml/exercise-04-certificate-runbook",
+          "learning_path": "lessons/mod-003-cryptography-for-ml/exercises/exercise-04-certificate-runbook.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "certificate-runbook",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Certificate Management Runbook"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-003-cryptography-for-ml/exercise-05-encryption-in-use-decision",
+          "learning_path": "lessons/mod-003-cryptography-for-ml/exercises/exercise-05-encryption-in-use-decision.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "encryption-in-use-decision",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Encryption-in-Use Decision Document"
+        }
+      ],
+      "id": "fill-mod-003-cryptography-for-ml-solutions",
+      "module": "mod-003-cryptography-for-ml",
+      "priority": 3,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-003-cryptography-for-ml module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-004-network-security",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-004-network-security/exercise-01-cni-evaluation/SOLUTION.md",
+          "source_exercise": "lessons/mod-004-network-security/exercises/exercise-01-cni-evaluation.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-004-network-security/exercise-02-complete-networkpolicy-set/SOLUTION.md",
+          "source_exercise": "lessons/mod-004-network-security/exercises/exercise-02-complete-networkpolicy-set.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-004-network-security/exercise-03-edge-gateway-hardening/SOLUTION.md",
+          "source_exercise": "lessons/mod-004-network-security/exercises/exercise-03-edge-gateway-hardening.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-004-network-security/exercise-04-rate-limit-ddos-design/SOLUTION.md",
+          "source_exercise": "lessons/mod-004-network-security/exercises/exercise-04-rate-limit-ddos-design.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-004-network-security/exercise-05-network-observability-plan/SOLUTION.md",
+          "source_exercise": "lessons/mod-004-network-security/exercises/exercise-05-network-observability-plan.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-004-network-security/exercise-01-cni-evaluation",
+          "learning_path": "lessons/mod-004-network-security/exercises/exercise-01-cni-evaluation.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "cni-evaluation",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 CNI Evaluation"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-004-network-security/exercise-02-complete-networkpolicy-set",
+          "learning_path": "lessons/mod-004-network-security/exercises/exercise-02-complete-networkpolicy-set.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "complete-networkpolicy-set",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 Complete NetworkPolicy Set"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-004-network-security/exercise-03-edge-gateway-hardening",
+          "learning_path": "lessons/mod-004-network-security/exercises/exercise-03-edge-gateway-hardening.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "edge-gateway-hardening",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 Edge Gateway Hardening"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-004-network-security/exercise-04-rate-limit-ddos-design",
+          "learning_path": "lessons/mod-004-network-security/exercises/exercise-04-rate-limit-ddos-design.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "rate-limit-ddos-design",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Rate-Limit and DDoS Design"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-004-network-security/exercise-05-network-observability-plan",
+          "learning_path": "lessons/mod-004-network-security/exercises/exercise-05-network-observability-plan.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "network-observability-plan",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Network Observability Plan"
+        }
+      ],
+      "id": "fill-mod-004-network-security-solutions",
+      "module": "mod-004-network-security",
+      "priority": 4,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-004-network-security module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-005-secrets-management",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-005-secrets-management/exercise-01-secrets-inventory/SOLUTION.md",
+          "source_exercise": "lessons/mod-005-secrets-management/exercises/exercise-01-secrets-inventory.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-005-secrets-management/exercise-02-vault-deployment-plan/SOLUTION.md",
+          "source_exercise": "lessons/mod-005-secrets-management/exercises/exercise-02-vault-deployment-plan.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-005-secrets-management/exercise-03-secret-rotation-playbook/SOLUTION.md",
+          "source_exercise": "lessons/mod-005-secrets-management/exercises/exercise-03-secret-rotation-playbook.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-005-secrets-management/exercise-04-keyless-ci-design/SOLUTION.md",
+          "source_exercise": "lessons/mod-005-secrets-management/exercises/exercise-04-keyless-ci-design.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-005-secrets-management/exercise-05-secret-leak-runbook/SOLUTION.md",
+          "source_exercise": "lessons/mod-005-secrets-management/exercises/exercise-05-secret-leak-runbook.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-005-secrets-management/exercise-01-secrets-inventory",
+          "learning_path": "lessons/mod-005-secrets-management/exercises/exercise-01-secrets-inventory.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "secrets-inventory",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 Secrets Inventory"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-005-secrets-management/exercise-02-vault-deployment-plan",
+          "learning_path": "lessons/mod-005-secrets-management/exercises/exercise-02-vault-deployment-plan.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "vault-deployment-plan",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 Vault Deployment Plan"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-005-secrets-management/exercise-03-secret-rotation-playbook",
+          "learning_path": "lessons/mod-005-secrets-management/exercises/exercise-03-secret-rotation-playbook.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "secret-rotation-playbook",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 Secret Rotation Playbook"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-005-secrets-management/exercise-04-keyless-ci-design",
+          "learning_path": "lessons/mod-005-secrets-management/exercises/exercise-04-keyless-ci-design.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "keyless-ci-design",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Keyless CI Design"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-005-secrets-management/exercise-05-secret-leak-runbook",
+          "learning_path": "lessons/mod-005-secrets-management/exercises/exercise-05-secret-leak-runbook.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "secret-leak-runbook",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Secret-Leak Incident Runbook"
+        }
+      ],
+      "id": "fill-mod-005-secrets-management-solutions",
+      "module": "mod-005-secrets-management",
+      "priority": 5,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-005-secrets-management module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-006-adversarial-ml",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-006-adversarial-ml/exercise-01-robustness-assessment/SOLUTION.md",
+          "source_exercise": "lessons/mod-006-adversarial-ml/exercises/exercise-01-robustness-assessment.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-006-adversarial-ml/exercise-02-defense-plan/SOLUTION.md",
+          "source_exercise": "lessons/mod-006-adversarial-ml/exercises/exercise-02-defense-plan.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-006-adversarial-ml/exercise-03-poisoning-detection/SOLUTION.md",
+          "source_exercise": "lessons/mod-006-adversarial-ml/exercises/exercise-03-poisoning-detection.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-006-adversarial-ml/exercise-04-dp-sgd-configuration/SOLUTION.md",
+          "source_exercise": "lessons/mod-006-adversarial-ml/exercises/exercise-04-dp-sgd-configuration.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-006-adversarial-ml/exercise-05-llm-safety-pipeline/SOLUTION.md",
+          "source_exercise": "lessons/mod-006-adversarial-ml/exercises/exercise-05-llm-safety-pipeline.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-006-adversarial-ml/exercise-01-robustness-assessment",
+          "learning_path": "lessons/mod-006-adversarial-ml/exercises/exercise-01-robustness-assessment.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "robustness-assessment",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 Adversarial Robustness Assessment"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-006-adversarial-ml/exercise-02-defense-plan",
+          "learning_path": "lessons/mod-006-adversarial-ml/exercises/exercise-02-defense-plan.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "defense-plan",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 Defense Plan with Quantified Trade-offs"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-006-adversarial-ml/exercise-03-poisoning-detection",
+          "learning_path": "lessons/mod-006-adversarial-ml/exercises/exercise-03-poisoning-detection.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "poisoning-detection",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 Poisoning Detection Design"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-006-adversarial-ml/exercise-04-dp-sgd-configuration",
+          "learning_path": "lessons/mod-006-adversarial-ml/exercises/exercise-04-dp-sgd-configuration.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "dp-sgd-configuration",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 DP-SGD Configuration"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-006-adversarial-ml/exercise-05-llm-safety-pipeline",
+          "learning_path": "lessons/mod-006-adversarial-ml/exercises/exercise-05-llm-safety-pipeline.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "llm-safety-pipeline",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 LLM Safety Pipeline"
+        }
+      ],
+      "id": "fill-mod-006-adversarial-ml-solutions",
+      "module": "mod-006-adversarial-ml",
+      "priority": 6,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-006-adversarial-ml module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-007-compliance-and-governance",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-007-compliance-and-governance/exercise-01-regulatory-applicability/SOLUTION.md",
+          "source_exercise": "lessons/mod-007-compliance-and-governance/exercises/exercise-01-regulatory-applicability.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-007-compliance-and-governance/exercise-02-gdpr-controls-plan/SOLUTION.md",
+          "source_exercise": "lessons/mod-007-compliance-and-governance/exercises/exercise-02-gdpr-controls-plan.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-007-compliance-and-governance/exercise-03-soc2-readiness/SOLUTION.md",
+          "source_exercise": "lessons/mod-007-compliance-and-governance/exercises/exercise-03-soc2-readiness.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-007-compliance-and-governance/exercise-04-continuous-compliance/SOLUTION.md",
+          "source_exercise": "lessons/mod-007-compliance-and-governance/exercises/exercise-04-continuous-compliance.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-007-compliance-and-governance/exercise-05-vendor-risk-review/SOLUTION.md",
+          "source_exercise": "lessons/mod-007-compliance-and-governance/exercises/exercise-05-vendor-risk-review.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-007-compliance-and-governance/exercise-01-regulatory-applicability",
+          "learning_path": "lessons/mod-007-compliance-and-governance/exercises/exercise-01-regulatory-applicability.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "regulatory-applicability",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 Regulatory Applicability Matrix"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-007-compliance-and-governance/exercise-02-gdpr-controls-plan",
+          "learning_path": "lessons/mod-007-compliance-and-governance/exercises/exercise-02-gdpr-controls-plan.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "gdpr-controls-plan",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 GDPR Controls Implementation Plan"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-007-compliance-and-governance/exercise-03-soc2-readiness",
+          "learning_path": "lessons/mod-007-compliance-and-governance/exercises/exercise-03-soc2-readiness.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "soc2-readiness",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 SOC 2 Readiness Assessment"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-007-compliance-and-governance/exercise-04-continuous-compliance",
+          "learning_path": "lessons/mod-007-compliance-and-governance/exercises/exercise-04-continuous-compliance.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "continuous-compliance",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Continuous Compliance Design"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-007-compliance-and-governance/exercise-05-vendor-risk-review",
+          "learning_path": "lessons/mod-007-compliance-and-governance/exercises/exercise-05-vendor-risk-review.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "vendor-risk-review",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Vendor Risk Review"
+        }
+      ],
+      "id": "fill-mod-007-compliance-and-governance-solutions",
+      "module": "mod-007-compliance-and-governance",
+      "priority": 7,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf",
+          "nist-ai-600-1",
+          "veriswarm-trust-center"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-007-compliance-and-governance module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-008-runtime-security",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-008-runtime-security/exercise-01-pss-baseline/SOLUTION.md",
+          "source_exercise": "lessons/mod-008-runtime-security/exercises/exercise-01-pss-baseline.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-008-runtime-security/exercise-02-seccomp-apparmor-profiles/SOLUTION.md",
+          "source_exercise": "lessons/mod-008-runtime-security/exercises/exercise-02-seccomp-apparmor-profiles.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-008-runtime-security/exercise-03-falco-ruleset/SOLUTION.md",
+          "source_exercise": "lessons/mod-008-runtime-security/exercises/exercise-03-falco-ruleset.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-008-runtime-security/exercise-04-behavioral-baseline-design/SOLUTION.md",
+          "source_exercise": "lessons/mod-008-runtime-security/exercises/exercise-04-behavioral-baseline-design.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-008-runtime-security/exercise-05-container-escape-runbook/SOLUTION.md",
+          "source_exercise": "lessons/mod-008-runtime-security/exercises/exercise-05-container-escape-runbook.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-008-runtime-security/exercise-01-pss-baseline",
+          "learning_path": "lessons/mod-008-runtime-security/exercises/exercise-01-pss-baseline.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "pss-baseline",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 Pod Security Standards Baseline"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-008-runtime-security/exercise-02-seccomp-apparmor-profiles",
+          "learning_path": "lessons/mod-008-runtime-security/exercises/exercise-02-seccomp-apparmor-profiles.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "seccomp-apparmor-profiles",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 Seccomp + AppArmor Profiles"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-008-runtime-security/exercise-03-falco-ruleset",
+          "learning_path": "lessons/mod-008-runtime-security/exercises/exercise-03-falco-ruleset.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "falco-ruleset",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 Falco Ruleset"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-008-runtime-security/exercise-04-behavioral-baseline-design",
+          "learning_path": "lessons/mod-008-runtime-security/exercises/exercise-04-behavioral-baseline-design.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "behavioral-baseline-design",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Behavioral Baseline Design"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-008-runtime-security/exercise-05-container-escape-runbook",
+          "learning_path": "lessons/mod-008-runtime-security/exercises/exercise-05-container-escape-runbook.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "container-escape-runbook",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Container-Escape Response Runbook"
+        }
+      ],
+      "id": "fill-mod-008-runtime-security-solutions",
+      "module": "mod-008-runtime-security",
+      "priority": 8,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "verified",
+      "title": "Fill mod-008-runtime-security module exercise solutions",
+      "type": "module_solution_gap",
+      "verified_at": "2026-05-29T13:14:08Z",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-009-policy-as-code",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-009-policy-as-code/exercise-01-gatekeeper-vs-kyverno/SOLUTION.md",
+          "source_exercise": "lessons/mod-009-policy-as-code/exercises/exercise-01-gatekeeper-vs-kyverno.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-009-policy-as-code/exercise-02-rego-policy-library/SOLUTION.md",
+          "source_exercise": "lessons/mod-009-policy-as-code/exercises/exercise-02-rego-policy-library.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-009-policy-as-code/exercise-03-conftest-ci-gate/SOLUTION.md",
+          "source_exercise": "lessons/mod-009-policy-as-code/exercises/exercise-03-conftest-ci-gate.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-009-policy-as-code/exercise-04-ml-policy-catalog/SOLUTION.md",
+          "source_exercise": "lessons/mod-009-policy-as-code/exercises/exercise-04-ml-policy-catalog.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-009-policy-as-code/exercise-05-policy-testing-distribution/SOLUTION.md",
+          "source_exercise": "lessons/mod-009-policy-as-code/exercises/exercise-05-policy-testing-distribution.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-009-policy-as-code/exercise-01-gatekeeper-vs-kyverno",
+          "learning_path": "lessons/mod-009-policy-as-code/exercises/exercise-01-gatekeeper-vs-kyverno.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "gatekeeper-vs-kyverno",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 Gatekeeper vs. Kyverno Choice"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-009-policy-as-code/exercise-02-rego-policy-library",
+          "learning_path": "lessons/mod-009-policy-as-code/exercises/exercise-02-rego-policy-library.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "rego-policy-library",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 Rego Policy Library"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-009-policy-as-code/exercise-03-conftest-ci-gate",
+          "learning_path": "lessons/mod-009-policy-as-code/exercises/exercise-03-conftest-ci-gate.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "conftest-ci-gate",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 Conftest CI Gate"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-009-policy-as-code/exercise-04-ml-policy-catalog",
+          "learning_path": "lessons/mod-009-policy-as-code/exercises/exercise-04-ml-policy-catalog.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "ml-policy-catalog",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 ML-Specific Policy Catalog"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-009-policy-as-code/exercise-05-policy-testing-distribution",
+          "learning_path": "lessons/mod-009-policy-as-code/exercises/exercise-05-policy-testing-distribution.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "policy-testing-distribution",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Policy Testing + Distribution Plan"
+        }
+      ],
+      "id": "fill-mod-009-policy-as-code-solutions",
+      "module": "mod-009-policy-as-code",
+      "priority": 9,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-009-policy-as-code module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-010-supply-chain-security",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-010-supply-chain-security/exercise-01-slsa-self-assessment/SOLUTION.md",
+          "source_exercise": "lessons/mod-010-supply-chain-security/exercises/exercise-01-slsa-self-assessment.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-010-supply-chain-security/exercise-02-signed-pipeline-design/SOLUTION.md",
+          "source_exercise": "lessons/mod-010-supply-chain-security/exercises/exercise-02-signed-pipeline-design.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-010-supply-chain-security/exercise-03-admission-verification/SOLUTION.md",
+          "source_exercise": "lessons/mod-010-supply-chain-security/exercises/exercise-03-admission-verification.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-010-supply-chain-security/exercise-04-hugging-face-vetting/SOLUTION.md",
+          "source_exercise": "lessons/mod-010-supply-chain-security/exercises/exercise-04-hugging-face-vetting.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-010-supply-chain-security/exercise-05-supply-chain-incident-runbook/SOLUTION.md",
+          "source_exercise": "lessons/mod-010-supply-chain-security/exercises/exercise-05-supply-chain-incident-runbook.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-010-supply-chain-security/exercise-01-slsa-self-assessment",
+          "learning_path": "lessons/mod-010-supply-chain-security/exercises/exercise-01-slsa-self-assessment.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "slsa-self-assessment",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 SLSA Self-Assessment"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-010-supply-chain-security/exercise-02-signed-pipeline-design",
+          "learning_path": "lessons/mod-010-supply-chain-security/exercises/exercise-02-signed-pipeline-design.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "signed-pipeline-design",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 Signed-Pipeline Design"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-010-supply-chain-security/exercise-03-admission-verification",
+          "learning_path": "lessons/mod-010-supply-chain-security/exercises/exercise-03-admission-verification.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "admission-verification",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 Admission Verification Configuration"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-010-supply-chain-security/exercise-04-hugging-face-vetting",
+          "learning_path": "lessons/mod-010-supply-chain-security/exercises/exercise-04-hugging-face-vetting.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "hugging-face-vetting",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Hugging Face Model Vetting"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-010-supply-chain-security/exercise-05-supply-chain-incident-runbook",
+          "learning_path": "lessons/mod-010-supply-chain-security/exercises/exercise-05-supply-chain-incident-runbook.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "supply-chain-incident-runbook",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Supply-Chain Incident Runbook"
+        }
+      ],
+      "id": "fill-mod-010-supply-chain-security-solutions",
+      "module": "mod-010-supply-chain-security",
+      "priority": 10,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf",
+          "slsa",
+          "sigstore-docs",
+          "openssf-scorecard"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-010-supply-chain-security module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-011-security-operations",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-011-security-operations/exercise-01-siem-evaluation/SOLUTION.md",
+          "source_exercise": "lessons/mod-011-security-operations/exercises/exercise-01-siem-evaluation.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-011-security-operations/exercise-02-ml-detection-ruleset/SOLUTION.md",
+          "source_exercise": "lessons/mod-011-security-operations/exercises/exercise-02-ml-detection-ruleset.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-011-security-operations/exercise-03-ml-ir-procedure/SOLUTION.md",
+          "source_exercise": "lessons/mod-011-security-operations/exercises/exercise-03-ml-ir-procedure.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-011-security-operations/exercise-04-tabletop-library/SOLUTION.md",
+          "source_exercise": "lessons/mod-011-security-operations/exercises/exercise-04-tabletop-library.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-011-security-operations/exercise-05-postmortem-template/SOLUTION.md",
+          "source_exercise": "lessons/mod-011-security-operations/exercises/exercise-05-postmortem-template.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-011-security-operations/exercise-01-siem-evaluation",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-01-siem-evaluation.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "siem-evaluation",
+          "status": "missing_solution",
+          "title": "Exercise 01 \u2014 SIEM Evaluation"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-011-security-operations/exercise-02-ml-detection-ruleset",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-02-ml-detection-ruleset.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "ml-detection-ruleset",
+          "status": "missing_solution",
+          "title": "Exercise 02 \u2014 ML-Specific Detection Ruleset"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-011-security-operations/exercise-03-ml-ir-procedure",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-03-ml-ir-procedure.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "ml-ir-procedure",
+          "status": "missing_solution",
+          "title": "Exercise 03 \u2014 IR Procedure for ML Threats"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-011-security-operations/exercise-04-tabletop-library",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-04-tabletop-library.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "tabletop-library",
+          "status": "missing_solution",
+          "title": "Exercise 04 \u2014 Tabletop Scenario Library"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-011-security-operations/exercise-05-postmortem-template",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-05-postmortem-template.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "postmortem-template",
+          "status": "missing_solution",
+          "title": "Exercise 05 \u2014 Postmortem Template + Worked Example"
+        }
+      ],
+      "id": "fill-mod-011-security-operations-solutions",
+      "module": "mod-011-security-operations",
+      "priority": 11,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-011-security-operations module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    },
+    {
+      "actions": [
+        {
+          "path": "modules/mod-012-capstone",
+          "type": "create_directory"
+        },
+        {
+          "exercise_id": "exercise-01",
+          "path": "modules/mod-012-capstone/exercise-01-threat-model-and-risk-register/SOLUTION.md",
+          "source_exercise": "lessons/mod-012-capstone/exercises/exercise-01-threat-model-and-risk-register.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "path": "modules/mod-012-capstone/exercise-02-security-architecture/SOLUTION.md",
+          "source_exercise": "lessons/mod-012-capstone/exercises/exercise-02-security-architecture.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "path": "modules/mod-012-capstone/exercise-03-ml-specific-controls/SOLUTION.md",
+          "source_exercise": "lessons/mod-012-capstone/exercises/exercise-03-ml-specific-controls.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "path": "modules/mod-012-capstone/exercise-04-compliance-and-policy/SOLUTION.md",
+          "source_exercise": "lessons/mod-012-capstone/exercises/exercise-04-compliance-and-policy.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "path": "modules/mod-012-capstone/exercise-05-secops-program/SOLUTION.md",
+          "source_exercise": "lessons/mod-012-capstone/exercises/exercise-05-secops-program.md",
+          "type": "write_solution"
+        },
+        {
+          "exercise_id": "exercise-06",
+          "path": "modules/mod-012-capstone/exercise-06-stakeholder-portfolio/SOLUTION.md",
+          "source_exercise": "lessons/mod-012-capstone/exercises/exercise-06-stakeholder-portfolio.md",
+          "type": "write_solution"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "exercise-01",
+          "expected_solution_dir": "modules/mod-012-capstone/exercise-01-threat-model-and-risk-register",
+          "learning_path": "lessons/mod-012-capstone/exercises/exercise-01-threat-model-and-risk-register.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "threat-model-and-risk-register",
+          "status": "missing_solution",
+          "title": "Capstone Exercise 01 \u2014 Threat Model + Risk Register"
+        },
+        {
+          "exercise_id": "exercise-02",
+          "expected_solution_dir": "modules/mod-012-capstone/exercise-02-security-architecture",
+          "learning_path": "lessons/mod-012-capstone/exercises/exercise-02-security-architecture.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "security-architecture",
+          "status": "missing_solution",
+          "title": "Capstone Exercise 02 \u2014 Security Architecture"
+        },
+        {
+          "exercise_id": "exercise-03",
+          "expected_solution_dir": "modules/mod-012-capstone/exercise-03-ml-specific-controls",
+          "learning_path": "lessons/mod-012-capstone/exercises/exercise-03-ml-specific-controls.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "ml-specific-controls",
+          "status": "missing_solution",
+          "title": "Capstone Exercise 03 \u2014 ML-Specific Controls"
+        },
+        {
+          "exercise_id": "exercise-04",
+          "expected_solution_dir": "modules/mod-012-capstone/exercise-04-compliance-and-policy",
+          "learning_path": "lessons/mod-012-capstone/exercises/exercise-04-compliance-and-policy.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "compliance-and-policy",
+          "status": "missing_solution",
+          "title": "Capstone Exercise 04 \u2014 Compliance and Policy Program"
+        },
+        {
+          "exercise_id": "exercise-05",
+          "expected_solution_dir": "modules/mod-012-capstone/exercise-05-secops-program",
+          "learning_path": "lessons/mod-012-capstone/exercises/exercise-05-secops-program.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "secops-program",
+          "status": "missing_solution",
+          "title": "Capstone Exercise 05 \u2014 SecOps Program"
+        },
+        {
+          "exercise_id": "exercise-06",
+          "expected_solution_dir": "modules/mod-012-capstone/exercise-06-stakeholder-portfolio",
+          "learning_path": "lessons/mod-012-capstone/exercises/exercise-06-stakeholder-portfolio.md",
+          "required_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "slug": "stakeholder-portfolio",
+          "status": "missing_solution",
+          "title": "Capstone Exercise 06 \u2014 Stakeholder Communication Portfolio"
+        }
+      ],
+      "id": "fill-mod-012-capstone-solutions",
+      "module": "mod-012-capstone",
+      "priority": 12,
+      "repo": "ai-infra-security-solutions",
+      "severity": "error",
+      "source_policy": {
+        "needs_research_blocks_merge": true,
+        "official_first": true,
+        "required_default_sources": [
+          "owasp-ml-top-10",
+          "mitre-atlas",
+          "nist-ai-rmf"
+        ]
+      },
+      "status": "planned",
+      "title": "Fill mod-012-capstone module exercise solutions",
+      "type": "module_solution_gap",
+      "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
+    }
+  ]
+}
