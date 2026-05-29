@@ -431,15 +431,20 @@ NetworkPolicy is allow-only; "deny" is the absence of a matching allow.
 
 ### 2.11 Bill of materials
 
-The complete policy set (per namespace) totals:
+The complete policy set (per namespace) totals. Each entry below is
+defined in the section noted; the BOM is an index of the manifests
+above, not new policies. In particular, since §2.2 puts default-deny
+on **both** `ingress` and `model-registry`, the external→gateway,
+gateway→inference, and registry-side ingress allows in §2.5/§2.7
+are mandatory or those namespaces are silently unreachable.
 
-| Namespace | Policies required |
+| Namespace | Policies required (defined in) |
 |---|---|
-| `ml-inference` | default-deny, dns-egress, metrics-ingress, gateway→inference ingress, inference→feature-store egress, inference→registry egress, inference→otlp egress |
-| `ml-training` | default-deny, dns-egress, metrics-ingress, training→registry egress, training→object-store egress |
-| `feature-store` | default-deny, dns-egress, metrics-ingress, inference→feature-store ingress |
-| `model-registry` | default-deny, dns-egress, metrics-ingress, inference→registry ingress, training→registry ingress |
-| `ingress` | default-deny, dns-egress, metrics-ingress, external→gateway ingress (from LB CIDR), gateway→inference egress |
+| `ml-inference` | default-deny (§2.2), dns-egress (§2.3), metrics-ingress (§2.4), gateway→inference ingress (§2.5: `allow-ingress-from-gateway`), inference→feature-store egress (§2.6), inference→registry egress (§2.7), inference→otlp egress (§2.9) |
+| `ml-training` | default-deny (§2.2), dns-egress (§2.3), metrics-ingress (§2.4), training→registry egress (§2.8), training→object-store egress (§2.8) |
+| `feature-store` | default-deny (§2.2), dns-egress (§2.3), metrics-ingress (§2.4), inference→feature-store ingress (§2.6) |
+| `model-registry` | default-deny (§2.2), dns-egress (§2.3), metrics-ingress (§2.4), inference→registry ingress (§2.7: `allow-ingress-from-inference`), training→registry ingress (§2.7: `allow-ingress-from-training`) |
+| `ingress` | default-deny (§2.2), dns-egress (§2.3), metrics-ingress (§2.4), external→gateway ingress from LB CIDR (§2.5: `allow-ingress-from-lb`), gateway→inference egress (§2.5: `allow-egress-to-inference`) |
 
 Total: ~24 NetworkPolicy resources. Anything significantly fewer is
 likely missing a symmetric ingress/egress or a system carve-out.

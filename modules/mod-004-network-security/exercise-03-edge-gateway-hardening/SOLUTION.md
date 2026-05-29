@@ -137,11 +137,18 @@ predict endpoint" mistakes and resists trivial body-flood DoS.
 
 ### 2.4 Authentication on the inference path
 
+Two JWT providers are declared because the rules below reference two
+distinct provider names (`platform-oidc` for inference, `platform-oidc-admin`
+for `/admin`). Every name used in `rules[*].requires.provider_name`
+**must** appear as a key under `providers:`; an unknown name causes
+the listener configuration to be rejected at load.
+
 ```yaml
 # Envoy JWT authentication
 typed_config:
   "@type": type.googleapis.com/envoy.extensions.filters.http.jwt_authn.v3.JwtAuthentication
   providers:
+    # Provider 1 of 2 — used by /v1/predict (inference path)
     platform-oidc:
       issuer: https://iam.example.com/
       audiences:
@@ -157,6 +164,8 @@ typed_config:
       from_headers:
         - name: Authorization
           value_prefix: "Bearer "
+    # Provider 2 of 2 — used by /admin (administrative path);
+    # required by the `/admin` rule below, distinct issuer + audience.
     platform-oidc-admin:
       issuer: https://iam-admin.example.com/
       audiences:
@@ -175,12 +184,12 @@ typed_config:
   rules:
     - match: { prefix: "/v1/predict" }
       requires:
-        provider_name: platform-oidc
+        provider_name: platform-oidc          # declared above
     - match: { prefix: "/healthz" }
       requires: {}
     - match: { prefix: "/admin" }
       requires:
-        provider_name: platform-oidc-admin
+        provider_name: platform-oidc-admin    # declared above
 ```
 
 Decisions and *why*:
