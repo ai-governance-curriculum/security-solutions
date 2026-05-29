@@ -121,14 +121,14 @@ spec:
   background: false
   webhookTimeoutSeconds: 30
   rules:
-    - name: app-images-keyless
+    # A Kyverno verifyImages rule entry verifies signatures OR
+    # attestations, not both — see Kyverno docs. Split into two
+    # named rules so the same image must satisfy both checks.
+    - name: app-images-keyless-signature
       match:
         any:
           - resources: { kinds: [Pod] }
       verifyImages:
-        # A single verifyImages entry verifies signatures OR attestations,
-        # not both — see Kyverno docs. Split into two entries so the same
-        # image must satisfy both checks.
         - imageReferences:
             - "ghcr.io/mlplat/*"
             - "registry.mlplat.example.com/apps/*"
@@ -141,6 +141,12 @@ spec:
                     issuer: "https://token.actions.githubusercontent.com"
                     rekor:
                       url: https://rekor.sigstore.dev
+
+    - name: app-images-keyless-attestation
+      match:
+        any:
+          - resources: { kinds: [Pod] }
+      verifyImages:
         - imageReferences:
             - "ghcr.io/mlplat/*"
             - "registry.mlplat.example.com/apps/*"
