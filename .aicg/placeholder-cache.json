@@ -12,8 +12,8 @@
     },
     "CURRICULUM.md": {
       "findings": [],
-      "mtime_ns": 1780045987149163478,
-      "size": 957
+      "mtime_ns": 1780027871386953553,
+      "size": 978
     },
     "LEARNING_GUIDE.md": {
       "findings": [],
@@ -22,7 +22,7 @@
     },
     "README.md": {
       "findings": [],
-      "mtime_ns": 1780043027417647221,
+      "mtime_ns": 1780009925356619775,
       "size": 3741
     },
     "SOLUTIONS_INDEX.md": {
@@ -32,8 +32,8 @@
     },
     "VERSIONS.md": {
       "findings": [],
-      "mtime_ns": 1780045987149163478,
-      "size": 223
+      "mtime_ns": 1780027871386953553,
+      "size": 244
     },
     "guides/README.md": {
       "findings": [],
@@ -45,30 +45,30 @@
       "mtime_ns": 1779916463985723293,
       "size": 114
     },
-    "modules/mod-004-network-security/exercise-01-cni-evaluation/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780045901513802006,
-      "size": 11777
+      "mtime_ns": 1780027814077840818,
+      "size": 16943
     },
-    "modules/mod-004-network-security/exercise-02-complete-networkpolicy-set/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780045483276842851,
-      "size": 14926
+      "mtime_ns": 1780027827537632432,
+      "size": 12478
     },
-    "modules/mod-004-network-security/exercise-03-edge-gateway-hardening/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780045918693540176,
-      "size": 16111
+      "mtime_ns": 1780027840574097267,
+      "size": 17872
     },
-    "modules/mod-004-network-security/exercise-04-rate-limit-ddos-design/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780045945603130058,
-      "size": 13508
+      "mtime_ns": 1780027853363899254,
+      "size": 14592
     },
-    "modules/mod-004-network-security/exercise-05-network-observability-plan/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780045971459402635,
-      "size": 14554
+      "mtime_ns": 1780027867310350000,
+      "size": 18781
     },
     "projects/README.md": {
       "findings": [],
@@ -211,6 +211,6 @@
       "size": 85
     }
   },
-  "generated_at": "2026-05-29T09:13:07Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "schema_version": 1
 }
