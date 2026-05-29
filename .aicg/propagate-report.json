@@ -1,0 +1,38 @@
+{
+  "already_present": [],
+  "curriculum_appended": {
+    "already_present": [],
+    "appended": [
+      "fill-mod-005-secrets-management-solutions"
+    ],
+    "present": true
+  },
+  "curriculum_suggestions": [
+    {
+      "scope": "mod-005-secrets-management",
+      "suggestion": "Update `CURRICULUM.md` so the row for `mod-005-secrets-management` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
+      "work_id": "fill-mod-005-secrets-management-solutions"
+    }
+  ],
+  "generated_at": "2026-05-29T10:13:04Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-security-solutions",
+    "path": "/home/s0v3r1gn/ai-infra-curriculum/ai-infra-security-solutions",
+    "track": "security"
+  },
+  "schema_version": 1,
+  "status": "updated",
+  "updated": [
+    {
+      "date": "2026-05-29",
+      "module": "mod-005-secrets-management",
+      "project": null,
+      "title": "Fill mod-005-secrets-management module exercise solutions",
+      "type": "module_solution_gap",
+      "work_id": "fill-mod-005-secrets-management-solutions"
+    }
+  ],
+  "versions_path": "VERSIONS.md"
+}

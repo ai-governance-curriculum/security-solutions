@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-05-29T10:13:04Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-security-solutions",
+    "path": "/home/s0v3r1gn/ai-infra-curriculum/ai-infra-security-solutions",
+    "track": "security"
+  },
+  "schema_version": 1,
+  "status": "verified",
+  "work_item_count": 1,
+  "work_items": [
+    {
+      "actions": [
+        {
+          "findings": [],
+          "path": "modules/mod-005-secrets-management",
+          "quality": null,
+          "status": "ok",
+          "type": "create_directory"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-005-secrets-management/exercise-01-secrets-inventory/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-005-secrets-management/exercise-02-vault-deployment-plan/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-005-secrets-management/exercise-03-secret-rotation-playbook/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-005-secrets-management/exercise-04-keyless-ci-design/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-005-secrets-management/exercise-05-secret-leak-runbook/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        }
+      ],
+      "finding_count": 0,
+      "findings": [],
+      "status": "verified",
+      "work_id": "fill-mod-005-secrets-management-solutions"
+    }
+  ]
+}
