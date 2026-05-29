@@ -12,8 +12,8 @@
     },
     "CURRICULUM.md": {
       "findings": [],
-      "mtime_ns": 1780074733722673142,
-      "size": 933
+      "mtime_ns": 1780027871386953553,
+      "size": 978
     },
     "LEARNING_GUIDE.md": {
       "findings": [],
@@ -22,18 +22,18 @@
     },
     "README.md": {
       "findings": [],
-      "mtime_ns": 1780071504964587626,
+      "mtime_ns": 1780009925356619775,
       "size": 3741
     },
     "SOLUTIONS_INDEX.md": {
       "findings": [],
-      "mtime_ns": 1780071504964587626,
+      "mtime_ns": 1779916463985723293,
       "size": 598
     },
     "VERSIONS.md": {
       "findings": [],
-      "mtime_ns": 1780074733722673142,
-      "size": 199
+      "mtime_ns": 1780027871386953553,
+      "size": 244
     },
     "guides/README.md": {
       "findings": [],
@@ -45,35 +45,30 @@
       "mtime_ns": 1779916463985723293,
       "size": 114
     },
-    "modules/mod-012-capstone/exercise-01-threat-model-and-risk-register/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780074681320115429,
-      "size": 13271
+      "mtime_ns": 1780027814077840818,
+      "size": 16943
     },
-    "modules/mod-012-capstone/exercise-02-security-architecture/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780074692329950307,
-      "size": 12773
+      "mtime_ns": 1780027827537632432,
+      "size": 12478
     },
-    "modules/mod-012-capstone/exercise-03-ml-specific-controls/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780074703469784694,
-      "size": 15157
+      "mtime_ns": 1780027840574097267,
+      "size": 17872
     },
-    "modules/mod-012-capstone/exercise-04-compliance-and-policy/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780074712482985483,
-      "size": 12429
+      "mtime_ns": 1780027853363899254,
+      "size": 14592
     },
-    "modules/mod-012-capstone/exercise-05-secops-program/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780074720709531174,
-      "size": 14061
-    },
-    "modules/mod-012-capstone/exercise-06-stakeholder-portfolio/SOLUTION.md": {
-      "findings": [],
-      "mtime_ns": 1780074727486098188,
-      "size": 14478
+      "mtime_ns": 1780027867310350000,
+      "size": 18781
     },
     "projects/README.md": {
       "findings": [],
@@ -216,6 +211,6 @@
       "size": 85
     }
   },
-  "generated_at": "2026-05-29T17:12:13Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "schema_version": 1
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T17:12:13Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "repo": {
     "has_git": true,
     "kind": "solutions",
@@ -15,49 +15,42 @@
       "actions": [
         {
           "findings": [],
-          "path": "modules/mod-012-capstone",
+          "path": "modules/mod-001-ml-security-foundations",
           "quality": null,
           "status": "ok",
           "type": "create_directory"
         },
         {
           "findings": [],
-          "path": "modules/mod-012-capstone/exercise-01-threat-model-and-risk-register/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
         },
         {
           "findings": [],
-          "path": "modules/mod-012-capstone/exercise-02-security-architecture/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
         },
         {
           "findings": [],
-          "path": "modules/mod-012-capstone/exercise-03-ml-specific-controls/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
         },
         {
           "findings": [],
-          "path": "modules/mod-012-capstone/exercise-04-compliance-and-policy/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
         },
         {
           "findings": [],
-          "path": "modules/mod-012-capstone/exercise-05-secops-program/SOLUTION.md",
-          "quality": null,
-          "status": "ok",
-          "type": "write_solution"
-        },
-        {
-          "findings": [],
-          "path": "modules/mod-012-capstone/exercise-06-stakeholder-portfolio/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
@@ -66,7 +59,7 @@
       "finding_count": 0,
       "findings": [],
       "status": "verified",
-      "work_id": "fill-mod-012-capstone-solutions"
+      "work_id": "fill-mod-001-ml-security-foundations-solutions"
     }
   ]
 }

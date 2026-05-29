@@ -3,18 +3,18 @@
   "curriculum_appended": {
     "already_present": [],
     "appended": [
-      "fill-mod-012-capstone-solutions"
+      "fill-mod-001-ml-security-foundations-solutions"
     ],
     "present": true
   },
   "curriculum_suggestions": [
     {
-      "scope": "mod-012-capstone",
-      "suggestion": "Update `CURRICULUM.md` so the row for `mod-012-capstone` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
-      "work_id": "fill-mod-012-capstone-solutions"
+      "scope": "mod-001-ml-security-foundations",
+      "suggestion": "Update `CURRICULUM.md` so the row for `mod-001-ml-security-foundations` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
+      "work_id": "fill-mod-001-ml-security-foundations-solutions"
     }
   ],
-  "generated_at": "2026-05-29T17:12:13Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "repo": {
     "has_git": true,
     "kind": "solutions",
@@ -26,12 +26,12 @@
   "status": "updated",
   "updated": [
     {
-      "date": "2026-05-29",
-      "module": "mod-012-capstone",
+      "date": "2026-05-28",
+      "module": "mod-001-ml-security-foundations",
       "project": null,
-      "title": "Fill mod-012-capstone module exercise solutions",
+      "title": "Fill mod-001-ml-security-foundations module exercise solutions",
       "type": "module_solution_gap",
-      "work_id": "fill-mod-012-capstone-solutions"
+      "work_id": "fill-mod-001-ml-security-foundations-solutions"
     }
   ],
   "versions_path": "VERSIONS.md"
