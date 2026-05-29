@@ -4,6 +4,7 @@
 
 | Date | Work ID | Scope | Title |
 |---|---|---|---|
+| 2026-05-29 | `fill-mod-011-security-operations-solutions` | `mod-011-security-operations` | Fill mod-011-security-operations module exercise solutions |
 | 2026-05-29 | `fill-mod-010-supply-chain-security-solutions` | `mod-010-supply-chain-security` | Fill mod-010-supply-chain-security module exercise solutions |
 | 2026-05-29 | `fill-mod-009-policy-as-code-solutions` | `mod-009-policy-as-code` | Fill mod-009-policy-as-code module exercise solutions |
 | 2026-05-29 | `fill-mod-008-runtime-security-solutions` | `mod-008-runtime-security` | Fill mod-008-runtime-security module exercise solutions |
