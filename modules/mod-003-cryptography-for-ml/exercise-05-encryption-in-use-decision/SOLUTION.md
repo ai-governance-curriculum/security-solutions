@@ -140,8 +140,8 @@ Every family needs a runbook that addresses:
   attestation-gated key release (e.g., Azure Confidential Ledger /
   AWS Nitro KMS / GCP Confidential KMS, or a Vault + attestation
   plugin).
-- **Patching cadence.** TEE security depends on microcode + firmware
-  + driver versions; rotate to fixed versions within X days of
+- **Patching cadence.** TEE security depends on microcode, firmware,
+  and driver versions; rotate to fixed versions within X days of
   vendor advisory.
 - **Side-channel monitoring.** Subscribe to vendor advisories
   (Intel-SA, AMD bulletin, NVIDIA PSIRT). Build a process for
@@ -209,8 +209,8 @@ Score 0 / 1 / 2; pass at ≥80%.
 ## 5. Common mistakes
 
 - **Marketing-grade throughput claims.** "No measurable overhead" is
-  almost never true. Cite a benchmark with workload + sequence length
-  + batch size.
+  almost never true. Cite a benchmark with workload, sequence length,
+  and batch size.
 - **TEE chosen by default.** TEEs are a sound choice for many ML
   workloads but they trade a software trust boundary for a hardware
   one. If you do not need attestation, you may not need the TEE.
