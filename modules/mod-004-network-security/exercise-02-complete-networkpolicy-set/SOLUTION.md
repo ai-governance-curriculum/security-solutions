@@ -132,9 +132,63 @@ Adapt `podSelector` and `port` per workload. The point is that the
 scrape source is named explicitly; "anything in `monitoring`" is too
 broad if other tenants share that namespace.
 
-### 2.5 Ingress gateway → inference
+### 2.5 External → ingress gateway → inference
+
+External traffic from the cloud load balancer reaches the edge gateway
+in the `ingress` namespace, which then forwards to inference. Both
+hops are explicit and symmetric: an `ingress` rule on the receiver
+plus an `egress` rule on the sender.
 
 ```yaml
+# External (LB CIDR) → edge gateway, applied in the ingress namespace
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-ingress-from-lb
+  namespace: ingress
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/name: edge-gateway
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - ipBlock:
+            cidr: 10.60.0.0/16   # cloud LB / NAT CIDR — only path in from outside
+      ports:
+        - protocol: TCP
+          port: 8443
+```
+
+```yaml
+# Edge gateway → inference, egress side, applied in the ingress namespace
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-egress-to-inference
+  namespace: ingress
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/name: edge-gateway
+  policyTypes:
+    - Egress
+  egress:
+    - to:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: ml-inference
+          podSelector:
+            matchLabels:
+              app.kubernetes.io/component: model-server
+      ports:
+        - protocol: TCP
+          port: 8080
+```
+
+```yaml
+# Edge gateway → inference, ingress side, applied in the ml-inference namespace
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
@@ -158,6 +212,10 @@ spec:
         - protocol: TCP
           port: 8080
 ```
+
+Without all three, the `ingress` namespace's default-deny silently
+breaks the entry path: external traffic cannot reach the gateway, the
+gateway cannot reach inference, or both.
 
 ### 2.6 Inference → feature store
 
@@ -244,7 +302,60 @@ spec:
 
 The inference workloads need read-only registry access at startup
 (model load). Training workloads need write access; they go in the
-training namespace's policy below.
+training namespace's policy below. Each requires a matching ingress
+policy on the registry side, since `model-registry` is default-deny:
+
+```yaml
+# Inference → registry, ingress side, applied in the model-registry namespace
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-ingress-from-inference
+  namespace: model-registry
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/component: artifact-api
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: ml-inference
+          podSelector:
+            matchLabels:
+              app.kubernetes.io/component: model-server
+      ports:
+        - protocol: TCP
+          port: 8082
+```
+
+```yaml
+# Training → registry, ingress side, applied in the model-registry namespace
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-ingress-from-training
+  namespace: model-registry
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/component: artifact-api
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: ml-training
+          podSelector:
+            matchLabels:
+              app.kubernetes.io/component: trainer
+      ports:
+        - protocol: TCP
+          port: 8082
+```
 
 ### 2.8 Training → registry (write) and external object storage
 

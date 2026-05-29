@@ -157,6 +157,21 @@ typed_config:
       from_headers:
         - name: Authorization
           value_prefix: "Bearer "
+    platform-oidc-admin:
+      issuer: https://iam-admin.example.com/
+      audiences:
+        - admin.ai-platform.example.com
+      remote_jwks:
+        http_uri:
+          uri: https://iam-admin.example.com/.well-known/jwks.json
+          cluster: iam-admin-jwks
+          timeout: 5s
+        cache_duration: 300s
+      forward: false
+      payload_in_metadata: jwt_payload
+      from_headers:
+        - name: Authorization
+          value_prefix: "Bearer "
   rules:
     - match: { prefix: "/v1/predict" }
       requires:
@@ -182,6 +197,12 @@ Decisions and *why*:
 - **`/healthz` explicitly unauthenticated** — kube probes and LB
   health checks need to reach it; the route is identified explicitly
   rather than left to accidental defaults.
+- **Separate `platform-oidc-admin` provider for `/admin`.** The admin
+  surface uses a distinct issuer and audience so an inference token
+  cannot reach administrative endpoints by accident or by token
+  confusion. Each rule in `rules:` references a provider by name, so
+  the admin provider must be declared alongside `platform-oidc`; the
+  config otherwise fails to validate.
 
 ### 2.5 Authorization (deny by default)
 
