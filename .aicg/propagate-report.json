@@ -1,0 +1,38 @@
+{
+  "already_present": [],
+  "curriculum_appended": {
+    "already_present": [],
+    "appended": [
+      "fill-mod-009-policy-as-code-solutions"
+    ],
+    "present": true
+  },
+  "curriculum_suggestions": [
+    {
+      "scope": "mod-009-policy-as-code",
+      "suggestion": "Update `CURRICULUM.md` so the row for `mod-009-policy-as-code` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
+      "work_id": "fill-mod-009-policy-as-code-solutions"
+    }
+  ],
+  "generated_at": "2026-05-29T14:11:52Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-security-solutions",
+    "path": "/home/s0v3r1gn/ai-infra-curriculum/ai-infra-security-solutions",
+    "track": "security"
+  },
+  "schema_version": 1,
+  "status": "updated",
+  "updated": [
+    {
+      "date": "2026-05-29",
+      "module": "mod-009-policy-as-code",
+      "project": null,
+      "title": "Fill mod-009-policy-as-code module exercise solutions",
+      "type": "module_solution_gap",
+      "work_id": "fill-mod-009-policy-as-code-solutions"
+    }
+  ],
+  "versions_path": "VERSIONS.md"
+}

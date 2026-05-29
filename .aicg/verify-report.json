@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-05-29T14:11:52Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-security-solutions",
+    "path": "/home/s0v3r1gn/ai-infra-curriculum/ai-infra-security-solutions",
+    "track": "security"
+  },
+  "schema_version": 1,
+  "status": "verified",
+  "work_item_count": 1,
+  "work_items": [
+    {
+      "actions": [
+        {
+          "findings": [],
+          "path": "modules/mod-009-policy-as-code",
+          "quality": null,
+          "status": "ok",
+          "type": "create_directory"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-009-policy-as-code/exercise-01-gatekeeper-vs-kyverno/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-009-policy-as-code/exercise-02-rego-policy-library/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-009-policy-as-code/exercise-03-conftest-ci-gate/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-009-policy-as-code/exercise-04-ml-policy-catalog/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-009-policy-as-code/exercise-05-policy-testing-distribution/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        }
+      ],
+      "finding_count": 0,
+      "findings": [],
+      "status": "verified",
+      "work_id": "fill-mod-009-policy-as-code-solutions"
+    }
+  ]
+}
