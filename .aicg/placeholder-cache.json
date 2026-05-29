@@ -1,0 +1,216 @@
+{
+  "entries": {
+    "CODE_OF_CONDUCT.md": {
+      "findings": [],
+      "mtime_ns": 1779916463985723293,
+      "size": 10090
+    },
+    "CONTRIBUTING.md": {
+      "findings": [],
+      "mtime_ns": 1779916463985723293,
+      "size": 921
+    },
+    "CURRICULUM.md": {
+      "findings": [],
+      "mtime_ns": 1780045987149163478,
+      "size": 957
+    },
+    "LEARNING_GUIDE.md": {
+      "findings": [],
+      "mtime_ns": 1779916463985723293,
+      "size": 932
+    },
+    "README.md": {
+      "findings": [],
+      "mtime_ns": 1780043027417647221,
+      "size": 3741
+    },
+    "SOLUTIONS_INDEX.md": {
+      "findings": [],
+      "mtime_ns": 1779916463985723293,
+      "size": 598
+    },
+    "VERSIONS.md": {
+      "findings": [],
+      "mtime_ns": 1780045987149163478,
+      "size": 223
+    },
+    "guides/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463985723293,
+      "size": 116
+    },
+    "modules/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463985723293,
+      "size": 114
+    },
+    "modules/mod-004-network-security/exercise-01-cni-evaluation/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780045901513802006,
+      "size": 11777
+    },
+    "modules/mod-004-network-security/exercise-02-complete-networkpolicy-set/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780045483276842851,
+      "size": 14926
+    },
+    "modules/mod-004-network-security/exercise-03-edge-gateway-hardening/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780045918693540176,
+      "size": 16111
+    },
+    "modules/mod-004-network-security/exercise-04-rate-limit-ddos-design/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780045945603130058,
+      "size": 13508
+    },
+    "modules/mod-004-network-security/exercise-05-network-observability-plan/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780045971459402635,
+      "size": 14554
+    },
+    "projects/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463985723293,
+      "size": 64
+    },
+    "projects/project-1-zero-trust/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463985723293,
+      "size": 1923
+    },
+    "projects/project-1-zero-trust/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 5446
+    },
+    "projects/project-1-zero-trust/falco-rules/ml-platform.yaml": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 1403
+    },
+    "projects/project-1-zero-trust/istio/authz-policy.yaml": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 568
+    },
+    "projects/project-1-zero-trust/istio/peer-authentication.yaml": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 372
+    },
+    "projects/project-1-zero-trust/tests/penetration.sh": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 1228
+    },
+    "projects/project-2-compliance/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 1017
+    },
+    "projects/project-2-compliance/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 6247
+    },
+    "projects/project-2-compliance/data_inventory/scan.py": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 1487
+    },
+    "projects/project-2-compliance/quarterly_report/generate.py": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 2080
+    },
+    "projects/project-3-adversarial-defense/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 876
+    },
+    "projects/project-3-adversarial-defense/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 6117
+    },
+    "projects/project-3-adversarial-defense/attacks/pgd.py": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 771
+    },
+    "projects/project-3-adversarial-defense/benchmark/robustness.py": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 878
+    },
+    "projects/project-3-adversarial-defense/defenses/input_validation.py": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 1166
+    },
+    "projects/project-3-adversarial-defense/defenses/rate_limit.py": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 860
+    },
+    "projects/project-4-secure-cicd/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463989056578,
+      "size": 1681
+    },
+    "projects/project-4-secure-cicd/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 6522
+    },
+    "projects/project-4-secure-cicd/ci-examples/secure-pipeline.yml": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 1709
+    },
+    "projects/project-4-secure-cicd/model-signing/sign_model.sh": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 748
+    },
+    "projects/project-5-security-operations/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 1234
+    },
+    "projects/project-5-security-operations/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 6628
+    },
+    "projects/project-5-security-operations/playbooks/model-theft.md": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 1316
+    },
+    "projects/project-5-security-operations/sigma-rules/data-exfiltration.yml": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 589
+    },
+    "projects/project-5-security-operations/sigma-rules/model-extraction.yml": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 787
+    },
+    "projects/project-5-security-operations/tabletop/q1-tabletop.md": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 1573
+    },
+    "resources/README.md": {
+      "findings": [],
+      "mtime_ns": 1779916463992389862,
+      "size": 85
+    }
+  },
+  "generated_at": "2026-05-29T09:13:07Z",
+  "schema_version": 1
+}
