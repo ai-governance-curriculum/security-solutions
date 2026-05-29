@@ -14,3 +14,11 @@ This document defines the expected structure for `ai-infra-security-solutions`.
 ## Structural Rules
 - Project slugs MUST match the paired learning repository.
 - Solutions are reference implementations; learners attempt projects first.
+
+## Shipped (autonomous)
+
+Auto-appended by the AICG runner. One row per verified work item. Edit the rest of the document by hand; this section is additive only.
+
+| Date | Work ID | Scope | Title |
+|---|---|---|---|
+| 2026-05-29 | `fill-mod-011-security-operations-solutions` | `mod-011-security-operations` | Fill mod-011-security-operations module exercise solutions |
