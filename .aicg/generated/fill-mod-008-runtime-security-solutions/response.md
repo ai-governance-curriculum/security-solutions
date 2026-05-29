@@ -1,0 +1,9 @@
+All five SOLUTION.md files are in place under `modules/mod-008-runtime-security/`:
+
+- `exercise-01-pss-baseline/SOLUTION.md` — per-namespace PSS profile table (Restricted/Baseline/Privileged split with rationale), label YAML, 5-week `warn→audit→enforce` rollout, expected-failure + remediation table, rollback plan, acceptance criteria.
+- `exercise-02-seccomp-apparmor-profiles/SOLUTION.md` — RuntimeDefault rollout, profiled custom seccomp JSON with generation methodology, full AppArmor profile text + per-restriction rationale, `complain→enforce` rollout, negative-test suite, seccomp-vs-AppArmor comparison.
+- `exercise-03-falco-ruleset/SOLUTION.md` — R001–R010 (8 required + 2 optional) with macros/lists, conditions, output, priority, MITRE tags, FPR, triage, tuning, Falcosidekick routing matrix, quarterly review process.
+- `exercise-04-behavioral-baseline-design/SOLUTION.md` — 8 dimensions with baseline methods, learning windows (7-day) and re-learning triggers, numeric thresholds with duration conditions, cold-start policy, 3 cross-dimension correlations, comparison vs. Falco rules.
+- `exercise-05-container-escape-runbook/SOLUTION.md` — severity classes, 5 detection sources with evidence-first first-5-min steps, time-bounded containment that explicitly forbids drain-before-snapshot, investigation tooling, eradication + node replacement, communication matrix, full tabletop scenario with three injects.
+
+Every file follows the 6-section output contract (overview, worked answer, validation, rubric, common mistakes, references). Claims are tied to the listed official sources — Kubernetes docs (PSS/seccomp/AppArmor), Falco/Tetragon docs, NIST SP 800-190 / SP 800-61r2, NSA/CISA hardening guide, MITRE ATT&CK Containers, MITRE ATLAS, NIST AI RMF, OWASP ML Top 10, GDPR Article 33 — without inventing metrics or incidents (illustrative numbers are flagged as defaults to tune from).

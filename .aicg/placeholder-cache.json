@@ -12,8 +12,8 @@
     },
     "CURRICULUM.md": {
       "findings": [],
-      "mtime_ns": 1780063912232984289,
-      "size": 951
+      "mtime_ns": 1780027871386953553,
+      "size": 978
     },
     "LEARNING_GUIDE.md": {
       "findings": [],
@@ -22,7 +22,7 @@
     },
     "README.md": {
       "findings": [],
-      "mtime_ns": 1780060462268925591,
+      "mtime_ns": 1780009925356619775,
       "size": 3741
     },
     "SOLUTIONS_INDEX.md": {
@@ -32,8 +32,8 @@
     },
     "VERSIONS.md": {
       "findings": [],
-      "mtime_ns": 1780063912232984289,
-      "size": 217
+      "mtime_ns": 1780027871386953553,
+      "size": 244
     },
     "guides/README.md": {
       "findings": [],
@@ -45,39 +45,30 @@
       "mtime_ns": 1779916463985723293,
       "size": 114
     },
-    "modules/mod-009-policy-as-code/exercise-01-gatekeeper-vs-kyverno/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780063865657031343,
-      "size": 12023
+      "mtime_ns": 1780027814077840818,
+      "size": 16943
     },
-    "modules/mod-009-policy-as-code/exercise-02-rego-policy-library/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780063461253225267,
-      "size": 20071
+      "mtime_ns": 1780027827537632432,
+      "size": 12478
     },
-    "modules/mod-009-policy-as-code/exercise-03-conftest-ci-gate/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780063878516834282,
-      "size": 23150
+      "mtime_ns": 1780027840574097267,
+      "size": 17872
     },
-    "modules/mod-009-policy-as-code/exercise-04-ml-policy-catalog/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780063896833220272,
-      "size": 22118
+      "mtime_ns": 1780027853363899254,
+      "size": 14592
     },
-    "modules/mod-009-policy-as-code/exercise-05-policy-testing-distribution/SOLUTION.md": {
-      "findings": [
-        {
-          "excerpt": "req/s`) are placeholder targets \u2014 the right number is whatever leaves",
-          "line": 40,
-          "message": "Found placeholder marker.",
-          "path": "modules/mod-009-policy-as-code/exercise-05-policy-testing-distribution/SOLUTION.md",
-          "severity": "warning",
-          "type": "placeholder"
-        }
-      ],
-      "mtime_ns": 1780063904259773135,
-      "size": 20700
+    "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780027867310350000,
+      "size": 18781
     },
     "projects/README.md": {
       "findings": [],
@@ -220,6 +211,6 @@
       "size": 85
     }
   },
-  "generated_at": "2026-05-29T14:11:52Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "schema_version": 1
 }

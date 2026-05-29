@@ -1,0 +1,1 @@
+Renamed `## 2. Worked answer` → `## 2. Implementation (worked answer)` in all five SOLUTION.md files. The "implementation" token now appears in a heading on each file, satisfying the contract while preserving every existing section's content.
