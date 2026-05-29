@@ -12,8 +12,8 @@
     },
     "CURRICULUM.md": {
       "findings": [],
-      "mtime_ns": 1780056762341894409,
-      "size": 984
+      "mtime_ns": 1780027871386953553,
+      "size": 978
     },
     "LEARNING_GUIDE.md": {
       "findings": [],
@@ -22,8 +22,8 @@
     },
     "README.md": {
       "findings": [],
-      "mtime_ns": 1780054990128844206,
-      "size": 3827
+      "mtime_ns": 1780009925356619775,
+      "size": 3741
     },
     "SOLUTIONS_INDEX.md": {
       "findings": [],
@@ -32,8 +32,8 @@
     },
     "VERSIONS.md": {
       "findings": [],
-      "mtime_ns": 1780056762341894409,
-      "size": 250
+      "mtime_ns": 1780027871386953553,
+      "size": 244
     },
     "guides/README.md": {
       "findings": [],
@@ -45,30 +45,30 @@
       "mtime_ns": 1779916463985723293,
       "size": 114
     },
-    "modules/mod-007-compliance-and-governance/exercise-01-regulatory-applicability/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780056731532363100,
-      "size": 9954
+      "mtime_ns": 1780027814077840818,
+      "size": 16943
     },
-    "modules/mod-007-compliance-and-governance/exercise-02-gdpr-controls-plan/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780056276669282632,
-      "size": 14206
+      "mtime_ns": 1780027827537632432,
+      "size": 12478
     },
-    "modules/mod-007-compliance-and-governance/exercise-03-soc2-readiness/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780056734875645574,
-      "size": 12102
+      "mtime_ns": 1780027840574097267,
+      "size": 17872
     },
-    "modules/mod-007-compliance-and-governance/exercise-04-continuous-compliance/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780056738055597198,
-      "size": 14705
+      "mtime_ns": 1780027853363899254,
+      "size": 14592
     },
-    "modules/mod-007-compliance-and-governance/exercise-05-vendor-risk-review/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780056754585345739,
-      "size": 13978
+      "mtime_ns": 1780027867310350000,
+      "size": 18781
     },
     "projects/README.md": {
       "findings": [],
@@ -211,6 +211,6 @@
       "size": 85
     }
   },
-  "generated_at": "2026-05-29T12:12:42Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "schema_version": 1
 }

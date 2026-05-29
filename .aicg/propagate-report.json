@@ -3,18 +3,18 @@
   "curriculum_appended": {
     "already_present": [],
     "appended": [
-      "fill-mod-007-compliance-and-governance-solutions"
+      "fill-mod-001-ml-security-foundations-solutions"
     ],
     "present": true
   },
   "curriculum_suggestions": [
     {
-      "scope": "mod-007-compliance-and-governance",
-      "suggestion": "Update `CURRICULUM.md` so the row for `mod-007-compliance-and-governance` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
-      "work_id": "fill-mod-007-compliance-and-governance-solutions"
+      "scope": "mod-001-ml-security-foundations",
+      "suggestion": "Update `CURRICULUM.md` so the row for `mod-001-ml-security-foundations` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
+      "work_id": "fill-mod-001-ml-security-foundations-solutions"
     }
   ],
-  "generated_at": "2026-05-29T12:12:42Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "repo": {
     "has_git": true,
     "kind": "solutions",
@@ -26,12 +26,12 @@
   "status": "updated",
   "updated": [
     {
-      "date": "2026-05-29",
-      "module": "mod-007-compliance-and-governance",
+      "date": "2026-05-28",
+      "module": "mod-001-ml-security-foundations",
       "project": null,
-      "title": "Fill mod-007-compliance-and-governance module exercise solutions",
+      "title": "Fill mod-001-ml-security-foundations module exercise solutions",
       "type": "module_solution_gap",
-      "work_id": "fill-mod-007-compliance-and-governance-solutions"
+      "work_id": "fill-mod-001-ml-security-foundations-solutions"
     }
   ],
   "versions_path": "VERSIONS.md"

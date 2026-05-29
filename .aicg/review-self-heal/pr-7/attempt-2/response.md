@@ -1,0 +1,4 @@
+Both edits are in place. Summary:
+
+- **`exercise-03-edge-gateway-hardening/SOLUTION.md`**: The `platform-oidc-admin` provider was already declared from attempt 1. Added inline YAML comments labeling each provider as 1/2 and 2/2, a `# declared above` comment on the admin rule's `provider_name`, and a paragraph before the snippet stating that every `provider_name` used in `rules:` must appear as a key under `providers:`. Makes the fix obvious to both bot analysis and learners.
+- **`exercise-02-complete-networkpolicy-set/SOLUTION.md`**: All BOM-listed manifests were already provided from attempt 1. Annotated each BOM-table entry with the section it's defined in (and the specific NetworkPolicy `metadata.name` for the items the bot called out), and added a sentence above the table that explicitly closes the loop with §2.2's default-deny on `ingress` and `model-registry`.

@@ -1,0 +1,7 @@
+All five `SOLUTION.md` files are in place under `modules/mod-004-network-security/`. Each follows the required output contract (overview → worked answer → validation → rubric → common mistakes → references) and applies the source policy: claims are tied to upstream project docs or the three official sources (OWASP ML Top 10, MITRE ATLAS, NIST AI RMF), and a handful of items I could not pin to a primary source carry `<!-- needs-research: ... -->` markers so auto-merge is blocked.
+
+Notes worth flagging:
+
+- **Lesson files were not accessible.** The work packet referenced `lessons/mod-004-network-security/exercises/*.md` in a sibling repo; only `ai-infra-security-solutions` was in scope, so I worked from the exercise titles. If the learner-side files contain narrower scope (e.g. a fixed candidate CNI list, specific namespace names, or specific tenancy model), the solutions may need a follow-up alignment pass.
+- **`needs-research` markers** are intentionally placed where I would not assert without verifying against current upstream docs: CNI feature-flag stability tiers, RDMA-CNI integration, NGINX `%2F`-reject pattern, AWS WAF window default, vLLM/TGI/Triton token-budget knobs, RateLimit header RFC status, retention floors under specific compliance regimes, and PII scrub list alignment.
+- No changes outside the target directory; `modules/mod-004-network-security/` previously did not exist and was created fresh.
