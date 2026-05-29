@@ -12,8 +12,8 @@
     },
     "CURRICULUM.md": {
       "findings": [],
-      "mtime_ns": 1780042416970312337,
-      "size": 966
+      "mtime_ns": 1780027871386953553,
+      "size": 978
     },
     "LEARNING_GUIDE.md": {
       "findings": [],
@@ -22,7 +22,7 @@
     },
     "README.md": {
       "findings": [],
-      "mtime_ns": 1780035464310751020,
+      "mtime_ns": 1780009925356619775,
       "size": 3741
     },
     "SOLUTIONS_INDEX.md": {
@@ -32,8 +32,8 @@
     },
     "VERSIONS.md": {
       "findings": [],
-      "mtime_ns": 1780042416970312337,
-      "size": 232
+      "mtime_ns": 1780027871386953553,
+      "size": 244
     },
     "guides/README.md": {
       "findings": [],
@@ -45,39 +45,30 @@
       "mtime_ns": 1779916463985723293,
       "size": 114
     },
-    "modules/mod-003-cryptography-for-ml/exercise-01-key-management-plan/SOLUTION.md": {
-      "findings": [
-        {
-          "excerpt": "3. No key family lists \"TBD\" as owner.",
-          "line": 196,
-          "message": "Found todo marker.",
-          "path": "modules/mod-003-cryptography-for-ml/exercise-01-key-management-plan/SOLUTION.md",
-          "severity": "warning",
-          "type": "todo"
-        }
-      ],
-      "mtime_ns": 1780042364924441674,
-      "size": 16333
-    },
-    "modules/mod-003-cryptography-for-ml/exercise-02-tls-mtls-audit/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780042377354251569,
-      "size": 14417
+      "mtime_ns": 1780027814077840818,
+      "size": 16943
     },
-    "modules/mod-003-cryptography-for-ml/exercise-03-signed-artifact-rollout/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780042381394189781,
-      "size": 15238
+      "mtime_ns": 1780027827537632432,
+      "size": 12478
     },
-    "modules/mod-003-cryptography-for-ml/exercise-04-certificate-runbook/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780042385280797005,
-      "size": 14812
+      "mtime_ns": 1780027840574097267,
+      "size": 17872
     },
-    "modules/mod-003-cryptography-for-ml/exercise-05-encryption-in-use-decision/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780042403030525536,
-      "size": 14774
+      "mtime_ns": 1780027853363899254,
+      "size": 14592
+    },
+    "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780027867310350000,
+      "size": 18781
     },
     "projects/README.md": {
       "findings": [],
@@ -220,6 +211,6 @@
       "size": 85
     }
   },
-  "generated_at": "2026-05-29T08:13:37Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "schema_version": 1
 }
