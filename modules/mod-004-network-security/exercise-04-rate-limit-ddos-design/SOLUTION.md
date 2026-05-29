@@ -24,8 +24,8 @@ A correct design has **three enforcement layers**:
   / DDoS service.
 - **L7 at the gateway** — per-route, per-identity, per-IP, per-tenant
   token-bucket limits with body and concurrency caps.
-- **Per-workload at the upstream** — concurrency limit + queue depth
-  + admission control specific to that model's capacity (especially
+- **Per-workload at the upstream** — concurrency limit, queue depth,
+  and admission control specific to that model's capacity (especially
   for LLMs / large batch jobs).
 
 Each layer fails independently. A single layer doing all the work is
