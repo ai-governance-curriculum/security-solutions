@@ -1,7 +1,7 @@
 ## AICG Work Item
 
-- Work ID: `fill-mod-010-supply-chain-security-solutions`
-- Module: `mod-010-supply-chain-security`
+- Work ID: `fill-mod-001-ml-security-foundations-solutions`
+- Module: `mod-001-ml-security-foundations`
 - Type: `module_solution_gap`
 
 ## Audit Summary
@@ -18,5 +18,5 @@
 ## Rollback
 
 ```bash
-git checkout main && git branch -D aicg/2026-05-29/ai-infra-security-solutions/fill-mod-010-supply-chain-security-solutions
+git checkout main && git branch -D aicg/2026-05-28/ai-infra-security-solutions/fill-mod-001-ml-security-foundations-solutions
 ```
