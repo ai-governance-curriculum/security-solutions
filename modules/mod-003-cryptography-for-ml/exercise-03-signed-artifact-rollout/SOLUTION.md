@@ -126,6 +126,9 @@ spec:
         any:
           - resources: { kinds: [Pod] }
       verifyImages:
+        # A single verifyImages entry verifies signatures OR attestations,
+        # not both — see Kyverno docs. Split into two entries so the same
+        # image must satisfy both checks.
         - imageReferences:
             - "ghcr.io/mlplat/*"
             - "registry.mlplat.example.com/apps/*"
@@ -138,6 +141,10 @@ spec:
                     issuer: "https://token.actions.githubusercontent.com"
                     rekor:
                       url: https://rekor.sigstore.dev
+        - imageReferences:
+            - "ghcr.io/mlplat/*"
+            - "registry.mlplat.example.com/apps/*"
+          required: true
           attestations:
             - predicateType: https://slsa.dev/provenance/v1
               attestors:
@@ -145,6 +152,8 @@ spec:
                     - keyless:
                         subject: "https://github.com/mlplat/*/.github/workflows/*@refs/heads/main"
                         issuer: "https://token.actions.githubusercontent.com"
+                        rekor:
+                          url: https://rekor.sigstore.dev
 
     - name: model-artifacts-kms
       match:
