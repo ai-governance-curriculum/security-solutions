@@ -12,8 +12,8 @@
     },
     "CURRICULUM.md": {
       "findings": [],
-      "mtime_ns": 1780060448955794887,
-      "size": 957
+      "mtime_ns": 1780027871386953553,
+      "size": 978
     },
     "LEARNING_GUIDE.md": {
       "findings": [],
@@ -22,7 +22,7 @@
     },
     "README.md": {
       "findings": [],
-      "mtime_ns": 1780056774638374016,
+      "mtime_ns": 1780009925356619775,
       "size": 3741
     },
     "SOLUTIONS_INDEX.md": {
@@ -32,8 +32,8 @@
     },
     "VERSIONS.md": {
       "findings": [],
-      "mtime_ns": 1780060448955794887,
-      "size": 223
+      "mtime_ns": 1780027871386953553,
+      "size": 244
     },
     "guides/README.md": {
       "findings": [],
@@ -45,30 +45,30 @@
       "mtime_ns": 1779916463985723293,
       "size": 114
     },
-    "modules/mod-008-runtime-security/exercise-01-pss-baseline/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780059831551857870,
-      "size": 16033
+      "mtime_ns": 1780027814077840818,
+      "size": 16943
     },
-    "modules/mod-008-runtime-security/exercise-02-seccomp-apparmor-profiles/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780059975389668800,
-      "size": 21627
+      "mtime_ns": 1780027827537632432,
+      "size": 12478
     },
-    "modules/mod-008-runtime-security/exercise-03-falco-ruleset/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780060129170661739,
-      "size": 25096
+      "mtime_ns": 1780027840574097267,
+      "size": 17872
     },
-    "modules/mod-008-runtime-security/exercise-04-behavioral-baseline-design/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780060246288879315,
-      "size": 18219
+      "mtime_ns": 1780027853363899254,
+      "size": 14592
     },
-    "modules/mod-008-runtime-security/exercise-05-container-escape-runbook/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780060420582893394,
-      "size": 26754
+      "mtime_ns": 1780027867310350000,
+      "size": 18781
     },
     "projects/README.md": {
       "findings": [],
@@ -211,6 +211,6 @@
       "size": 85
     }
   },
-  "generated_at": "2026-05-29T13:14:09Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "schema_version": 1
 }
