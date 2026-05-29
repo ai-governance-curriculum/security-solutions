@@ -37,10 +37,12 @@ committing to it.
   `ClusterIP` service plus a private internal Ingress for tooling.
   No public exposure. mTLS between clients and Vault using cluster
   internal CA.
-- **Storage encryption**: Raft snapshots encrypted with Vault's seal
-  wrap before upload to the snapshot bucket; the bucket itself has
-  KMS-encrypted, versioned, MFA-delete enabled, and an object-lock
-  policy aligned with retention.
+- **Storage encryption**: Raft snapshots inherit Vault's barrier
+  encryption at rest; the snapshot bucket itself is KMS-encrypted,
+  versioned, has MFA-delete enabled, and has an object-lock policy
+  aligned with retention. (Seal wrap is Vault Enterprise only; the
+  OSS plan relies on barrier + bucket-side KMS for the same control
+  surface.)
 - **Observability**: audit device (file sink + forwarder to the SIEM),
   Prometheus telemetry, structured server logs to the platform log
   pipeline.

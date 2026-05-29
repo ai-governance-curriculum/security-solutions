@@ -82,11 +82,15 @@ gateway, and GitHub Actions as CI.
 | SEC-009 | Argo CD → Git read deploy key | SSH key | GitOps | Argo CD secret | T1 | Read of GitOps manifests | 180d (manual) → SSO app token | Platform Security | GitHub App installation token |
 | SEC-010 | PagerDuty webhook | Bearer token | Alertmanager | Kubernetes Secret | T2 | Trigger false pages / suppress real ones | 180d (manual) | SRE | Webhook signing + token rotation |
 | SEC-011 | OpenAI API key (eval pipeline) | Vendor API key | Eval CI job | GitHub Actions secret | T1 | Cost exfiltration; data sent to external API | 90d (manual) → vendor OIDC if available | ML Platform | Vendor short-lived token if supported |
-| SEC-012 | Slack incoming webhook | Webhook URL | Bot | Repo `.env.example` (**misuse**) | T4 → fix | None as designed; flagged here because devs treat it as a secret | n/a | SRE | Move out of `.env.example`; treat as public |
+| SEC-012 | Slack incoming webhook | Webhook URL | Bot | Repo `.env.example` (**disclosure**) | T2 | Post arbitrary messages to the bound channel — fake alerts, suppression of real ones, internal phishing | Rotate on disclosure → managed in Vault `kv-v2` | SRE | Treat URL as a secret per Slack's webhook docs; rotate immediately; store in Vault, not in repo |
 
-The last row is intentional: a good inventory surfaces both
-under-protected secrets and *over*-protected non-secrets. Both waste
-operational effort.
+The last row is intentional: it surfaces an under-protected secret —
+Slack's own incoming-webhook documentation says the URL is a
+credential, since anyone holding it can post into the bound channel,
+so shipping one in `.env.example` is a disclosure that needs rotation
+and re-homing into the secrets manager. (A good inventory also
+surfaces *over*-protected non-secrets; those are covered separately
+in §2.5.)
 
 ### 2.4 Decision rationale (what reviewers should look for)
 
