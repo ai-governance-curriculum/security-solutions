@@ -142,6 +142,10 @@ spec:
                     rekor:
                       url: https://rekor.sigstore.dev
 
+    # Attestation half of the split. This verifyImages item has NO
+    # top-level `attestors:` — the `attestors:` nested under each
+    # `attestations[]` entry below identifies the signer of the
+    # SLSA provenance attestation itself, not the image signature.
     - name: app-images-keyless-attestation
       match:
         any:
