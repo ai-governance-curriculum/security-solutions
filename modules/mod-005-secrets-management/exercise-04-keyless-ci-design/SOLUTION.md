@@ -267,7 +267,7 @@ What this design does *not* address by itself:
 - Compromise of the OIDC issuer (GitHub) — defended by transparency
   log audit and out-of-band attestation review.
 - Compromise of the Fulcio CA — defended by Rekor's transparency log
-  + cross-checking signing identities.
+  and cross-checking signing identities.
 - Build determinism — keyless signing proves the *signer*, not the
   *build inputs*. SLSA provenance attestations close part of that
   gap; reproducible builds close more.
