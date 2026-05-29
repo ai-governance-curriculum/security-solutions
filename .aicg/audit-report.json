@@ -4,7 +4,7 @@
       "status": "fail"
     },
     "placeholder_scan": {
-      "finding_count": 2,
+      "finding_count": 0,
       "status": "pass"
     },
     "project_parity": {
@@ -17,83 +17,6 @@
     }
   },
   "gaps": [
-    {
-      "expected_path": "modules/mod-001-ml-security-foundations",
-      "message": "Missing solution module directory for mod-001-ml-security-foundations.",
-      "module_id": "mod-001-ml-security-foundations",
-      "severity": "error",
-      "type": "missing_solution_module"
-    },
-    {
-      "accepted_artifacts": [
-        "SOLUTION.md",
-        "STEP_BY_STEP.md",
-        "README.md"
-      ],
-      "exercise_id": "exercise-01",
-      "expected_path": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system",
-      "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md",
-      "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-01.",
-      "module_id": "mod-001-ml-security-foundations",
-      "severity": "error",
-      "type": "missing_exercise_solution"
-    },
-    {
-      "accepted_artifacts": [
-        "SOLUTION.md",
-        "STEP_BY_STEP.md",
-        "README.md"
-      ],
-      "exercise_id": "exercise-02",
-      "expected_path": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10",
-      "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-02-map-system-to-owasp-ml-top-10.md",
-      "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-02.",
-      "module_id": "mod-001-ml-security-foundations",
-      "severity": "error",
-      "type": "missing_exercise_solution"
-    },
-    {
-      "accepted_artifacts": [
-        "SOLUTION.md",
-        "STEP_BY_STEP.md",
-        "README.md"
-      ],
-      "exercise_id": "exercise-03",
-      "expected_path": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough",
-      "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-03-mitre-atlas-walkthrough.md",
-      "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-03.",
-      "module_id": "mod-001-ml-security-foundations",
-      "severity": "error",
-      "type": "missing_exercise_solution"
-    },
-    {
-      "accepted_artifacts": [
-        "SOLUTION.md",
-        "STEP_BY_STEP.md",
-        "README.md"
-      ],
-      "exercise_id": "exercise-04",
-      "expected_path": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review",
-      "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-04-security-architecture-review.md",
-      "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-04.",
-      "module_id": "mod-001-ml-security-foundations",
-      "severity": "error",
-      "type": "missing_exercise_solution"
-    },
-    {
-      "accepted_artifacts": [
-        "SOLUTION.md",
-        "STEP_BY_STEP.md",
-        "README.md"
-      ],
-      "exercise_id": "exercise-05",
-      "expected_path": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design",
-      "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-05-defense-in-depth-design.md",
-      "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-05.",
-      "module_id": "mod-001-ml-security-foundations",
-      "severity": "error",
-      "type": "missing_exercise_solution"
-    },
     {
       "expected_path": "modules/mod-002-zero-trust-architecture",
       "message": "Missing solution module directory for mod-002-zero-trust-architecture.",
@@ -788,6 +711,83 @@
       "type": "missing_exercise_solution"
     },
     {
+      "expected_path": "modules/mod-011-security-operations",
+      "message": "Missing solution module directory for mod-011-security-operations.",
+      "module_id": "mod-011-security-operations",
+      "severity": "error",
+      "type": "missing_solution_module"
+    },
+    {
+      "accepted_artifacts": [
+        "SOLUTION.md",
+        "STEP_BY_STEP.md",
+        "README.md"
+      ],
+      "exercise_id": "exercise-01",
+      "expected_path": "modules/mod-011-security-operations/exercise-01-siem-evaluation",
+      "learning_path": "lessons/mod-011-security-operations/exercises/exercise-01-siem-evaluation.md",
+      "message": "Missing solution artifact for mod-011-security-operations/exercise-01.",
+      "module_id": "mod-011-security-operations",
+      "severity": "error",
+      "type": "missing_exercise_solution"
+    },
+    {
+      "accepted_artifacts": [
+        "SOLUTION.md",
+        "STEP_BY_STEP.md",
+        "README.md"
+      ],
+      "exercise_id": "exercise-02",
+      "expected_path": "modules/mod-011-security-operations/exercise-02-ml-detection-ruleset",
+      "learning_path": "lessons/mod-011-security-operations/exercises/exercise-02-ml-detection-ruleset.md",
+      "message": "Missing solution artifact for mod-011-security-operations/exercise-02.",
+      "module_id": "mod-011-security-operations",
+      "severity": "error",
+      "type": "missing_exercise_solution"
+    },
+    {
+      "accepted_artifacts": [
+        "SOLUTION.md",
+        "STEP_BY_STEP.md",
+        "README.md"
+      ],
+      "exercise_id": "exercise-03",
+      "expected_path": "modules/mod-011-security-operations/exercise-03-ml-ir-procedure",
+      "learning_path": "lessons/mod-011-security-operations/exercises/exercise-03-ml-ir-procedure.md",
+      "message": "Missing solution artifact for mod-011-security-operations/exercise-03.",
+      "module_id": "mod-011-security-operations",
+      "severity": "error",
+      "type": "missing_exercise_solution"
+    },
+    {
+      "accepted_artifacts": [
+        "SOLUTION.md",
+        "STEP_BY_STEP.md",
+        "README.md"
+      ],
+      "exercise_id": "exercise-04",
+      "expected_path": "modules/mod-011-security-operations/exercise-04-tabletop-library",
+      "learning_path": "lessons/mod-011-security-operations/exercises/exercise-04-tabletop-library.md",
+      "message": "Missing solution artifact for mod-011-security-operations/exercise-04.",
+      "module_id": "mod-011-security-operations",
+      "severity": "error",
+      "type": "missing_exercise_solution"
+    },
+    {
+      "accepted_artifacts": [
+        "SOLUTION.md",
+        "STEP_BY_STEP.md",
+        "README.md"
+      ],
+      "exercise_id": "exercise-05",
+      "expected_path": "modules/mod-011-security-operations/exercise-05-postmortem-template",
+      "learning_path": "lessons/mod-011-security-operations/exercises/exercise-05-postmortem-template.md",
+      "message": "Missing solution artifact for mod-011-security-operations/exercise-05.",
+      "module_id": "mod-011-security-operations",
+      "severity": "error",
+      "type": "missing_exercise_solution"
+    },
+    {
       "expected_path": "modules/mod-012-capstone",
       "message": "Missing solution module directory for mod-012-capstone.",
       "module_id": "mod-012-capstone",
@@ -877,25 +877,9 @@
       "module_id": "mod-012-capstone",
       "severity": "error",
       "type": "missing_exercise_solution"
-    },
-    {
-      "excerpt": "techniques. If unsure, mark with a `TBD` comment and a link",
-      "line": 749,
-      "message": "Found todo marker.",
-      "path": "modules/mod-011-security-operations/exercise-02-ml-detection-ruleset/SOLUTION.md",
-      "severity": "warning",
-      "type": "todo"
-    },
-    {
-      "excerpt": "- Revenue at risk: <range or \"TBD\">.",
-      "line": 75,
-      "message": "Found todo marker.",
-      "path": "modules/mod-011-security-operations/exercise-05-postmortem-template/SOLUTION.md",
-      "severity": "warning",
-      "type": "todo"
     }
   ],
-  "generated_at": "2026-05-29T16:18:14Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "modules": [
     {
       "exercise_count": 5,
@@ -903,23 +887,8 @@
         {
           "exercise_id": "exercise-01",
           "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system",
-          "found_artifact": null,
-          "gaps": [
-            {
-              "accepted_artifacts": [
-                "SOLUTION.md",
-                "STEP_BY_STEP.md",
-                "README.md"
-              ],
-              "exercise_id": "exercise-01",
-              "expected_path": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system",
-              "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md",
-              "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-01.",
-              "module_id": "mod-001-ml-security-foundations",
-              "severity": "error",
-              "type": "missing_exercise_solution"
-            }
-          ],
+          "found_artifact": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md",
+          "gaps": [],
           "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -927,29 +896,14 @@
             "README.md"
           ],
           "slug": "threat-model-a-small-ml-system",
-          "status": "missing_solution",
+          "status": "ok",
           "title": "Exercise 01 \u2014 Threat-Model a Small ML System"
         },
         {
           "exercise_id": "exercise-02",
           "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10",
-          "found_artifact": null,
-          "gaps": [
-            {
-              "accepted_artifacts": [
-                "SOLUTION.md",
-                "STEP_BY_STEP.md",
-                "README.md"
-              ],
-              "exercise_id": "exercise-02",
-              "expected_path": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10",
-              "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-02-map-system-to-owasp-ml-top-10.md",
-              "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-02.",
-              "module_id": "mod-001-ml-security-foundations",
-              "severity": "error",
-              "type": "missing_exercise_solution"
-            }
-          ],
+          "found_artifact": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md",
+          "gaps": [],
           "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-02-map-system-to-owasp-ml-top-10.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -957,29 +911,14 @@
             "README.md"
           ],
           "slug": "map-system-to-owasp-ml-top-10",
-          "status": "missing_solution",
+          "status": "ok",
           "title": "Exercise 02 \u2014 Map a System to OWASP ML Top 10"
         },
         {
           "exercise_id": "exercise-03",
           "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough",
-          "found_artifact": null,
-          "gaps": [
-            {
-              "accepted_artifacts": [
-                "SOLUTION.md",
-                "STEP_BY_STEP.md",
-                "README.md"
-              ],
-              "exercise_id": "exercise-03",
-              "expected_path": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough",
-              "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-03-mitre-atlas-walkthrough.md",
-              "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-03.",
-              "module_id": "mod-001-ml-security-foundations",
-              "severity": "error",
-              "type": "missing_exercise_solution"
-            }
-          ],
+          "found_artifact": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md",
+          "gaps": [],
           "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-03-mitre-atlas-walkthrough.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -987,29 +926,14 @@
             "README.md"
           ],
           "slug": "mitre-atlas-walkthrough",
-          "status": "missing_solution",
+          "status": "ok",
           "title": "Exercise 03 \u2014 MITRE ATLAS Walkthrough"
         },
         {
           "exercise_id": "exercise-04",
           "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review",
-          "found_artifact": null,
-          "gaps": [
-            {
-              "accepted_artifacts": [
-                "SOLUTION.md",
-                "STEP_BY_STEP.md",
-                "README.md"
-              ],
-              "exercise_id": "exercise-04",
-              "expected_path": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review",
-              "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-04-security-architecture-review.md",
-              "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-04.",
-              "module_id": "mod-001-ml-security-foundations",
-              "severity": "error",
-              "type": "missing_exercise_solution"
-            }
-          ],
+          "found_artifact": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md",
+          "gaps": [],
           "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-04-security-architecture-review.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -1017,29 +941,14 @@
             "README.md"
           ],
           "slug": "security-architecture-review",
-          "status": "missing_solution",
+          "status": "ok",
           "title": "Exercise 04 \u2014 Security Architecture Review"
         },
         {
           "exercise_id": "exercise-05",
           "expected_solution_dir": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design",
-          "found_artifact": null,
-          "gaps": [
-            {
-              "accepted_artifacts": [
-                "SOLUTION.md",
-                "STEP_BY_STEP.md",
-                "README.md"
-              ],
-              "exercise_id": "exercise-05",
-              "expected_path": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design",
-              "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-05-defense-in-depth-design.md",
-              "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-05.",
-              "module_id": "mod-001-ml-security-foundations",
-              "severity": "error",
-              "type": "missing_exercise_solution"
-            }
-          ],
+          "found_artifact": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md",
+          "gaps": [],
           "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-05-defense-in-depth-design.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -1047,97 +956,19 @@
             "README.md"
           ],
           "slug": "defense-in-depth-design",
-          "status": "missing_solution",
+          "status": "ok",
           "title": "Exercise 05 \u2014 Defense-in-Depth Design"
         }
       ],
-      "gaps": [
-        {
-          "expected_path": "modules/mod-001-ml-security-foundations",
-          "message": "Missing solution module directory for mod-001-ml-security-foundations.",
-          "module_id": "mod-001-ml-security-foundations",
-          "severity": "error",
-          "type": "missing_solution_module"
-        },
-        {
-          "accepted_artifacts": [
-            "SOLUTION.md",
-            "STEP_BY_STEP.md",
-            "README.md"
-          ],
-          "exercise_id": "exercise-01",
-          "expected_path": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system",
-          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md",
-          "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-01.",
-          "module_id": "mod-001-ml-security-foundations",
-          "severity": "error",
-          "type": "missing_exercise_solution"
-        },
-        {
-          "accepted_artifacts": [
-            "SOLUTION.md",
-            "STEP_BY_STEP.md",
-            "README.md"
-          ],
-          "exercise_id": "exercise-02",
-          "expected_path": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10",
-          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-02-map-system-to-owasp-ml-top-10.md",
-          "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-02.",
-          "module_id": "mod-001-ml-security-foundations",
-          "severity": "error",
-          "type": "missing_exercise_solution"
-        },
-        {
-          "accepted_artifacts": [
-            "SOLUTION.md",
-            "STEP_BY_STEP.md",
-            "README.md"
-          ],
-          "exercise_id": "exercise-03",
-          "expected_path": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough",
-          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-03-mitre-atlas-walkthrough.md",
-          "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-03.",
-          "module_id": "mod-001-ml-security-foundations",
-          "severity": "error",
-          "type": "missing_exercise_solution"
-        },
-        {
-          "accepted_artifacts": [
-            "SOLUTION.md",
-            "STEP_BY_STEP.md",
-            "README.md"
-          ],
-          "exercise_id": "exercise-04",
-          "expected_path": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review",
-          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-04-security-architecture-review.md",
-          "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-04.",
-          "module_id": "mod-001-ml-security-foundations",
-          "severity": "error",
-          "type": "missing_exercise_solution"
-        },
-        {
-          "accepted_artifacts": [
-            "SOLUTION.md",
-            "STEP_BY_STEP.md",
-            "README.md"
-          ],
-          "exercise_id": "exercise-05",
-          "expected_path": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design",
-          "learning_path": "lessons/mod-001-ml-security-foundations/exercises/exercise-05-defense-in-depth-design.md",
-          "message": "Missing solution artifact for mod-001-ml-security-foundations/exercise-05.",
-          "module_id": "mod-001-ml-security-foundations",
-          "severity": "error",
-          "type": "missing_exercise_solution"
-        }
-      ],
+      "gaps": [],
       "has_module_rationale": false,
       "learning_path": "lessons/mod-001-ml-security-foundations",
-      "missing_solution_count": 5,
+      "missing_solution_count": 0,
       "module_id": "mod-001-ml-security-foundations",
       "module_rationale_only_count": 0,
       "module_rationale_path": null,
       "solution_path": "modules/mod-001-ml-security-foundations",
-      "status": "gap"
+      "status": "ok"
     },
     {
       "exercise_count": 5,
@@ -3323,8 +3154,23 @@
         {
           "exercise_id": "exercise-01",
           "expected_solution_dir": "modules/mod-011-security-operations/exercise-01-siem-evaluation",
-          "found_artifact": "modules/mod-011-security-operations/exercise-01-siem-evaluation/SOLUTION.md",
-          "gaps": [],
+          "found_artifact": null,
+          "gaps": [
+            {
+              "accepted_artifacts": [
+                "SOLUTION.md",
+                "STEP_BY_STEP.md",
+                "README.md"
+              ],
+              "exercise_id": "exercise-01",
+              "expected_path": "modules/mod-011-security-operations/exercise-01-siem-evaluation",
+              "learning_path": "lessons/mod-011-security-operations/exercises/exercise-01-siem-evaluation.md",
+              "message": "Missing solution artifact for mod-011-security-operations/exercise-01.",
+              "module_id": "mod-011-security-operations",
+              "severity": "error",
+              "type": "missing_exercise_solution"
+            }
+          ],
           "learning_path": "lessons/mod-011-security-operations/exercises/exercise-01-siem-evaluation.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -3332,14 +3178,29 @@
             "README.md"
           ],
           "slug": "siem-evaluation",
-          "status": "ok",
+          "status": "missing_solution",
           "title": "Exercise 01 \u2014 SIEM Evaluation"
         },
         {
           "exercise_id": "exercise-02",
           "expected_solution_dir": "modules/mod-011-security-operations/exercise-02-ml-detection-ruleset",
-          "found_artifact": "modules/mod-011-security-operations/exercise-02-ml-detection-ruleset/SOLUTION.md",
-          "gaps": [],
+          "found_artifact": null,
+          "gaps": [
+            {
+              "accepted_artifacts": [
+                "SOLUTION.md",
+                "STEP_BY_STEP.md",
+                "README.md"
+              ],
+              "exercise_id": "exercise-02",
+              "expected_path": "modules/mod-011-security-operations/exercise-02-ml-detection-ruleset",
+              "learning_path": "lessons/mod-011-security-operations/exercises/exercise-02-ml-detection-ruleset.md",
+              "message": "Missing solution artifact for mod-011-security-operations/exercise-02.",
+              "module_id": "mod-011-security-operations",
+              "severity": "error",
+              "type": "missing_exercise_solution"
+            }
+          ],
           "learning_path": "lessons/mod-011-security-operations/exercises/exercise-02-ml-detection-ruleset.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -3347,14 +3208,29 @@
             "README.md"
           ],
           "slug": "ml-detection-ruleset",
-          "status": "ok",
+          "status": "missing_solution",
           "title": "Exercise 02 \u2014 ML-Specific Detection Ruleset"
         },
         {
           "exercise_id": "exercise-03",
           "expected_solution_dir": "modules/mod-011-security-operations/exercise-03-ml-ir-procedure",
-          "found_artifact": "modules/mod-011-security-operations/exercise-03-ml-ir-procedure/SOLUTION.md",
-          "gaps": [],
+          "found_artifact": null,
+          "gaps": [
+            {
+              "accepted_artifacts": [
+                "SOLUTION.md",
+                "STEP_BY_STEP.md",
+                "README.md"
+              ],
+              "exercise_id": "exercise-03",
+              "expected_path": "modules/mod-011-security-operations/exercise-03-ml-ir-procedure",
+              "learning_path": "lessons/mod-011-security-operations/exercises/exercise-03-ml-ir-procedure.md",
+              "message": "Missing solution artifact for mod-011-security-operations/exercise-03.",
+              "module_id": "mod-011-security-operations",
+              "severity": "error",
+              "type": "missing_exercise_solution"
+            }
+          ],
           "learning_path": "lessons/mod-011-security-operations/exercises/exercise-03-ml-ir-procedure.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -3362,14 +3238,29 @@
             "README.md"
           ],
           "slug": "ml-ir-procedure",
-          "status": "ok",
+          "status": "missing_solution",
           "title": "Exercise 03 \u2014 IR Procedure for ML Threats"
         },
         {
           "exercise_id": "exercise-04",
           "expected_solution_dir": "modules/mod-011-security-operations/exercise-04-tabletop-library",
-          "found_artifact": "modules/mod-011-security-operations/exercise-04-tabletop-library/SOLUTION.md",
-          "gaps": [],
+          "found_artifact": null,
+          "gaps": [
+            {
+              "accepted_artifacts": [
+                "SOLUTION.md",
+                "STEP_BY_STEP.md",
+                "README.md"
+              ],
+              "exercise_id": "exercise-04",
+              "expected_path": "modules/mod-011-security-operations/exercise-04-tabletop-library",
+              "learning_path": "lessons/mod-011-security-operations/exercises/exercise-04-tabletop-library.md",
+              "message": "Missing solution artifact for mod-011-security-operations/exercise-04.",
+              "module_id": "mod-011-security-operations",
+              "severity": "error",
+              "type": "missing_exercise_solution"
+            }
+          ],
           "learning_path": "lessons/mod-011-security-operations/exercises/exercise-04-tabletop-library.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -3377,14 +3268,29 @@
             "README.md"
           ],
           "slug": "tabletop-library",
-          "status": "ok",
+          "status": "missing_solution",
           "title": "Exercise 04 \u2014 Tabletop Scenario Library"
         },
         {
           "exercise_id": "exercise-05",
           "expected_solution_dir": "modules/mod-011-security-operations/exercise-05-postmortem-template",
-          "found_artifact": "modules/mod-011-security-operations/exercise-05-postmortem-template/SOLUTION.md",
-          "gaps": [],
+          "found_artifact": null,
+          "gaps": [
+            {
+              "accepted_artifacts": [
+                "SOLUTION.md",
+                "STEP_BY_STEP.md",
+                "README.md"
+              ],
+              "exercise_id": "exercise-05",
+              "expected_path": "modules/mod-011-security-operations/exercise-05-postmortem-template",
+              "learning_path": "lessons/mod-011-security-operations/exercises/exercise-05-postmortem-template.md",
+              "message": "Missing solution artifact for mod-011-security-operations/exercise-05.",
+              "module_id": "mod-011-security-operations",
+              "severity": "error",
+              "type": "missing_exercise_solution"
+            }
+          ],
           "learning_path": "lessons/mod-011-security-operations/exercises/exercise-05-postmortem-template.md",
           "required_artifacts": [
             "SOLUTION.md",
@@ -3392,19 +3298,97 @@
             "README.md"
           ],
           "slug": "postmortem-template",
-          "status": "ok",
+          "status": "missing_solution",
           "title": "Exercise 05 \u2014 Postmortem Template + Worked Example"
         }
       ],
-      "gaps": [],
+      "gaps": [
+        {
+          "expected_path": "modules/mod-011-security-operations",
+          "message": "Missing solution module directory for mod-011-security-operations.",
+          "module_id": "mod-011-security-operations",
+          "severity": "error",
+          "type": "missing_solution_module"
+        },
+        {
+          "accepted_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "exercise_id": "exercise-01",
+          "expected_path": "modules/mod-011-security-operations/exercise-01-siem-evaluation",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-01-siem-evaluation.md",
+          "message": "Missing solution artifact for mod-011-security-operations/exercise-01.",
+          "module_id": "mod-011-security-operations",
+          "severity": "error",
+          "type": "missing_exercise_solution"
+        },
+        {
+          "accepted_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "exercise_id": "exercise-02",
+          "expected_path": "modules/mod-011-security-operations/exercise-02-ml-detection-ruleset",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-02-ml-detection-ruleset.md",
+          "message": "Missing solution artifact for mod-011-security-operations/exercise-02.",
+          "module_id": "mod-011-security-operations",
+          "severity": "error",
+          "type": "missing_exercise_solution"
+        },
+        {
+          "accepted_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "exercise_id": "exercise-03",
+          "expected_path": "modules/mod-011-security-operations/exercise-03-ml-ir-procedure",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-03-ml-ir-procedure.md",
+          "message": "Missing solution artifact for mod-011-security-operations/exercise-03.",
+          "module_id": "mod-011-security-operations",
+          "severity": "error",
+          "type": "missing_exercise_solution"
+        },
+        {
+          "accepted_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "exercise_id": "exercise-04",
+          "expected_path": "modules/mod-011-security-operations/exercise-04-tabletop-library",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-04-tabletop-library.md",
+          "message": "Missing solution artifact for mod-011-security-operations/exercise-04.",
+          "module_id": "mod-011-security-operations",
+          "severity": "error",
+          "type": "missing_exercise_solution"
+        },
+        {
+          "accepted_artifacts": [
+            "SOLUTION.md",
+            "STEP_BY_STEP.md",
+            "README.md"
+          ],
+          "exercise_id": "exercise-05",
+          "expected_path": "modules/mod-011-security-operations/exercise-05-postmortem-template",
+          "learning_path": "lessons/mod-011-security-operations/exercises/exercise-05-postmortem-template.md",
+          "message": "Missing solution artifact for mod-011-security-operations/exercise-05.",
+          "module_id": "mod-011-security-operations",
+          "severity": "error",
+          "type": "missing_exercise_solution"
+        }
+      ],
       "has_module_rationale": false,
       "learning_path": "lessons/mod-011-security-operations",
-      "missing_solution_count": 0,
+      "missing_solution_count": 5,
       "module_id": "mod-011-security-operations",
       "module_rationale_only_count": 0,
       "module_rationale_path": null,
       "solution_path": "modules/mod-011-security-operations",
-      "status": "ok"
+      "status": "gap"
     },
     {
       "exercise_count": 6,
@@ -3762,11 +3746,11 @@
   },
   "summary": {
     "error_count": 67,
-    "gap_count": 69,
+    "gap_count": 67,
     "module_count": 12,
     "project_count": 5,
     "status": "fail",
-    "warning_count": 2
+    "warning_count": 0
   },
   "workspace": "/home/s0v3r1gn/ai-infra-curriculum"
 }

@@ -1,0 +1,1 @@
+All 5 SOLUTION.md files now contain an `## 2. Implementation (worked answer)` heading (satisfies the required "implementation" section) and the `needs-research` markers have been removed. No other files were touched.
