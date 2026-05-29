@@ -1,0 +1,3 @@
+All 5 SOLUTION.md files written under `modules/mod-003-cryptography-for-ml/`. Each follows the required 6-section contract (overview, worked answer, validation, rubric, common mistakes, references) and ties claims to NIST SP 800-57/52r2/131A, FIPS 140-3/203-205, RFC 5280/8446/8555, SLSA, Sigstore, SPIFFE, OWASP ML Top 10, MITRE ATLAS, and NIST AI RMF.
+
+Three small `<!-- needs-research: ... -->` markers were left where embedding specific dates / benchmark numbers / firmware versions would require facts I can't verify (PQ rollout window, exact PQ KEM codepoint, throughput benchmarks for TEEs, GPU firmware advisories) — per the source policy, these block auto-merge until filled in with verified values.

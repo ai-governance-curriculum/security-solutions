@@ -1,0 +1,38 @@
+{
+  "already_present": [],
+  "curriculum_appended": {
+    "already_present": [],
+    "appended": [
+      "fill-mod-003-cryptography-for-ml-solutions"
+    ],
+    "present": true
+  },
+  "curriculum_suggestions": [
+    {
+      "scope": "mod-003-cryptography-for-ml",
+      "suggestion": "Update `CURRICULUM.md` so the row for `mod-003-cryptography-for-ml` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
+      "work_id": "fill-mod-003-cryptography-for-ml-solutions"
+    }
+  ],
+  "generated_at": "2026-05-29T08:13:36Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-security-solutions",
+    "path": "/home/s0v3r1gn/ai-infra-curriculum/ai-infra-security-solutions",
+    "track": "security"
+  },
+  "schema_version": 1,
+  "status": "updated",
+  "updated": [
+    {
+      "date": "2026-05-29",
+      "module": "mod-003-cryptography-for-ml",
+      "project": null,
+      "title": "Fill mod-003-cryptography-for-ml module exercise solutions",
+      "type": "module_solution_gap",
+      "work_id": "fill-mod-003-cryptography-for-ml-solutions"
+    }
+  ],
+  "versions_path": "VERSIONS.md"
+}

@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-05-29T08:13:36Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-security-solutions",
+    "path": "/home/s0v3r1gn/ai-infra-curriculum/ai-infra-security-solutions",
+    "track": "security"
+  },
+  "schema_version": 1,
+  "status": "verified",
+  "work_item_count": 1,
+  "work_items": [
+    {
+      "actions": [
+        {
+          "findings": [],
+          "path": "modules/mod-003-cryptography-for-ml",
+          "quality": null,
+          "status": "ok",
+          "type": "create_directory"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-003-cryptography-for-ml/exercise-01-key-management-plan/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-003-cryptography-for-ml/exercise-02-tls-mtls-audit/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-003-cryptography-for-ml/exercise-03-signed-artifact-rollout/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-003-cryptography-for-ml/exercise-04-certificate-runbook/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        },
+        {
+          "findings": [],
+          "path": "modules/mod-003-cryptography-for-ml/exercise-05-encryption-in-use-decision/SOLUTION.md",
+          "quality": null,
+          "status": "ok",
+          "type": "write_solution"
+        }
+      ],
+      "finding_count": 0,
+      "findings": [],
+      "status": "verified",
+      "work_id": "fill-mod-003-cryptography-for-ml-solutions"
+    }
+  ]
+}
