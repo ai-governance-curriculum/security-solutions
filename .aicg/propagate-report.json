@@ -3,18 +3,18 @@
   "curriculum_appended": {
     "already_present": [],
     "appended": [
-      "fill-mod-002-zero-trust-architecture-solutions"
+      "fill-mod-001-ml-security-foundations-solutions"
     ],
     "present": true
   },
   "curriculum_suggestions": [
     {
-      "scope": "mod-002-zero-trust-architecture",
-      "suggestion": "Update `CURRICULUM.md` so the row for `mod-002-zero-trust-architecture` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
-      "work_id": "fill-mod-002-zero-trust-architecture-solutions"
+      "scope": "mod-001-ml-security-foundations",
+      "suggestion": "Update `CURRICULUM.md` so the row for `mod-001-ml-security-foundations` reflects the newly-landed content. Schema varies per repo; this is a suggested edit, not an automated change.",
+      "work_id": "fill-mod-001-ml-security-foundations-solutions"
     }
   ],
-  "generated_at": "2026-05-29T06:16:12Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "repo": {
     "has_git": true,
     "kind": "solutions",
@@ -27,11 +27,11 @@
   "updated": [
     {
       "date": "2026-05-28",
-      "module": "mod-002-zero-trust-architecture",
+      "module": "mod-001-ml-security-foundations",
       "project": null,
-      "title": "Fill mod-002-zero-trust-architecture module exercise solutions",
+      "title": "Fill mod-001-ml-security-foundations module exercise solutions",
       "type": "module_solution_gap",
-      "work_id": "fill-mod-002-zero-trust-architecture-solutions"
+      "work_id": "fill-mod-001-ml-security-foundations-solutions"
     }
   ],
   "versions_path": "VERSIONS.md"

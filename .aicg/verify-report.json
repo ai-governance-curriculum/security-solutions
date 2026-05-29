@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T06:16:12Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "repo": {
     "has_git": true,
     "kind": "solutions",
@@ -15,42 +15,42 @@
       "actions": [
         {
           "findings": [],
-          "path": "modules/mod-002-zero-trust-architecture",
+          "path": "modules/mod-001-ml-security-foundations",
           "quality": null,
           "status": "ok",
           "type": "create_directory"
         },
         {
           "findings": [],
-          "path": "modules/mod-002-zero-trust-architecture/exercise-01-zero-trust-gap-analysis/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
         },
         {
           "findings": [],
-          "path": "modules/mod-002-zero-trust-architecture/exercise-02-workload-identity-design/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
         },
         {
           "findings": [],
-          "path": "modules/mod-002-zero-trust-architecture/exercise-03-microsegmentation-plan/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
         },
         {
           "findings": [],
-          "path": "modules/mod-002-zero-trust-architecture/exercise-04-service-mesh-authz/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
         },
         {
           "findings": [],
-          "path": "modules/mod-002-zero-trust-architecture/exercise-05-zero-trust-roadmap/SOLUTION.md",
+          "path": "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md",
           "quality": null,
           "status": "ok",
           "type": "write_solution"
@@ -59,7 +59,7 @@
       "finding_count": 0,
       "findings": [],
       "status": "verified",
-      "work_id": "fill-mod-002-zero-trust-architecture-solutions"
+      "work_id": "fill-mod-001-ml-security-foundations-solutions"
     }
   ]
 }

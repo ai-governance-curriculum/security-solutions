@@ -12,7 +12,7 @@
     },
     "CURRICULUM.md": {
       "findings": [],
-      "mtime_ns": 1780035372712164370,
+      "mtime_ns": 1780027871386953553,
       "size": 978
     },
     "LEARNING_GUIDE.md": {
@@ -22,7 +22,7 @@
     },
     "README.md": {
       "findings": [],
-      "mtime_ns": 1780027885980060954,
+      "mtime_ns": 1780009925356619775,
       "size": 3741
     },
     "SOLUTIONS_INDEX.md": {
@@ -32,7 +32,7 @@
     },
     "VERSIONS.md": {
       "findings": [],
-      "mtime_ns": 1780035372708831088,
+      "mtime_ns": 1780027871386953553,
       "size": 244
     },
     "guides/README.md": {
@@ -45,35 +45,30 @@
       "mtime_ns": 1779916463985723293,
       "size": 114
     },
-    "modules/mod-002-zero-trust-architecture/README.md": {
+    "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780034660436478076,
-      "size": 1720
+      "mtime_ns": 1780027814077840818,
+      "size": 16943
     },
-    "modules/mod-002-zero-trust-architecture/exercise-01-zero-trust-gap-analysis/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780035334586085451,
-      "size": 16696
+      "mtime_ns": 1780027827537632432,
+      "size": 12478
     },
-    "modules/mod-002-zero-trust-architecture/exercise-02-workload-identity-design/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780035341079318686,
-      "size": 18932
+      "mtime_ns": 1780027840574097267,
+      "size": 17872
     },
-    "modules/mod-002-zero-trust-architecture/exercise-03-microsegmentation-plan/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780035352292479158,
-      "size": 21428
+      "mtime_ns": 1780027853363899254,
+      "size": 14592
     },
-    "modules/mod-002-zero-trust-architecture/exercise-04-service-mesh-authz/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780035361679001123,
-      "size": 20200
-    },
-    "modules/mod-002-zero-trust-architecture/exercise-05-zero-trust-roadmap/SOLUTION.md": {
-      "findings": [],
-      "mtime_ns": 1780035368825557619,
-      "size": 21617
+      "mtime_ns": 1780027867310350000,
+      "size": 18781
     },
     "projects/README.md": {
       "findings": [],
@@ -216,6 +211,6 @@
       "size": 85
     }
   },
-  "generated_at": "2026-05-29T06:16:12Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "schema_version": 1
 }
