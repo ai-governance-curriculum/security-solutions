@@ -44,7 +44,7 @@ The remainder of this section is the worked artifact.
 
 ### Mesh Authorization Plan
 
-**Author:** _reference solution_
+**Author:** *reference solution*
 **Date:** 2026-05
 **Mesh:** Istio 1.x, `PeerAuthentication: STRICT` mesh-wide,
 default authorization is `DENY`.

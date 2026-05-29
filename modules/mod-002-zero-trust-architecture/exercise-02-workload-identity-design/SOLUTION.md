@@ -38,7 +38,7 @@ should produce.
 
 ### SmartRecs Workload Identity Design
 
-**Author:** _reference solution_
+**Author:** *reference solution*
 **Date:** 2026-05
 **Trust domain:** `spiffe://smartrecs.internal`
 **Reference:** Exercise 02 of module 02

@@ -48,7 +48,7 @@ The remainder of this section is the worked artifact.
 
 ### SmartRecs Zero-Trust Adoption Roadmap
 
-**Author:** _reference solution_
+**Author:** *reference solution*
 **Date:** 2026-05
 **Prior artifacts:** Module 01 threat model; Exercise 01 gap
 analysis ([`../exercise-01-zero-trust-gap-analysis/SOLUTION.md`](../exercise-01-zero-trust-gap-analysis/SOLUTION.md));

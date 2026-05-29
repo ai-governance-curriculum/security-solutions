@@ -42,7 +42,7 @@ not as commentary.
 
 ### Zero-Trust Gap Analysis: SmartRecs
 
-**Author:** _reference solution_
+**Author:** *reference solution*
 **Date:** 2026-05
 **System under analysis:** SmartRecs recommendation platform as
 described in

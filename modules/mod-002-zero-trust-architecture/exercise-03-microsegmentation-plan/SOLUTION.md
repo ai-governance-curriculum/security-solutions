@@ -47,7 +47,7 @@ The remainder of this section is the worked artifact.
 
 ### SmartRecs Microsegmentation Plan
 
-**Author:** _reference solution_
+**Author:** *reference solution*
 **Date:** 2026-05
 **Reference workload identity design:** Exercise 02 of this module
 ([`../exercise-02-workload-identity-design/SOLUTION.md`](../exercise-02-workload-identity-design/SOLUTION.md)).
