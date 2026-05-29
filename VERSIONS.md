@@ -4,6 +4,7 @@
 
 | Date | Work ID | Scope | Title |
 |---|---|---|---|
+| 2026-05-29 | `fill-mod-008-runtime-security-solutions` | `mod-008-runtime-security` | Fill mod-008-runtime-security module exercise solutions |
 | 2026-05-29 | `fill-mod-007-compliance-and-governance-solutions` | `mod-007-compliance-and-governance` | Fill mod-007-compliance-and-governance module exercise solutions |
 | 2026-05-29 | `fill-mod-006-adversarial-ml-solutions` | `mod-006-adversarial-ml` | Fill mod-006-adversarial-ml module exercise solutions |
 | 2026-05-29 | `fill-mod-005-secrets-management-solutions` | `mod-005-secrets-management` | Fill mod-005-secrets-management module exercise solutions |
