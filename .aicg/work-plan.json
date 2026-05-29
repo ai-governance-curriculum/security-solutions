@@ -9,7 +9,7 @@
   },
   "backlog_item_count": 0,
   "backlog_items": [],
-  "generated_at": "2026-05-29T11:00:27Z",
+  "generated_at": "2026-05-28T19:34:27Z",
   "repo": {
     "has_git": true,
     "kind": "solutions",
@@ -138,9 +138,10 @@
           "nist-ai-rmf"
         ]
       },
-      "status": "planned",
+      "status": "verified",
       "title": "Fill mod-001-ml-security-foundations module exercise solutions",
       "type": "module_solution_gap",
+      "verified_at": "2026-05-29T04:11:11Z",
       "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
     },
     {
@@ -755,10 +756,9 @@
           "nist-ai-rmf"
         ]
       },
-      "status": "verified",
+      "status": "planned",
       "title": "Fill mod-006-adversarial-ml module exercise solutions",
       "type": "module_solution_gap",
-      "verified_at": "2026-05-29T11:12:06Z",
       "why": "Learning exercises exist in the paired learning repo, but the solutions repo is missing module-level reference solutions."
     },
     {

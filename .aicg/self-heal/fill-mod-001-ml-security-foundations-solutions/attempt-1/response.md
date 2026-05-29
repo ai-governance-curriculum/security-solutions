@@ -1,0 +1,1 @@
+All five SOLUTION.md files now include an `## Implementation` heading inserted between section 2 (the worked answer) and section 3 (validation steps). Each implementation section is a short, exercise-specific list of actions for turning the paper deliverable into engineering work — preserving existing content and numbering.

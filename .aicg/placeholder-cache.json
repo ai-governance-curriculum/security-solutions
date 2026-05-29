@@ -12,8 +12,8 @@
     },
     "CURRICULUM.md": {
       "findings": [],
-      "mtime_ns": 1780053126980506000,
-      "size": 951
+      "mtime_ns": 1780027871386953553,
+      "size": 978
     },
     "LEARNING_GUIDE.md": {
       "findings": [],
@@ -22,7 +22,7 @@
     },
     "README.md": {
       "findings": [],
-      "mtime_ns": 1780049952892104949,
+      "mtime_ns": 1780009925356619775,
       "size": 3741
     },
     "SOLUTIONS_INDEX.md": {
@@ -32,8 +32,8 @@
     },
     "VERSIONS.md": {
       "findings": [],
-      "mtime_ns": 1780053126980506000,
-      "size": 217
+      "mtime_ns": 1780027871386953553,
+      "size": 244
     },
     "guides/README.md": {
       "findings": [],
@@ -45,71 +45,30 @@
       "mtime_ns": 1779916463985723293,
       "size": 114
     },
-    "modules/mod-006-adversarial-ml/README.md": {
+    "modules/mod-001-ml-security-foundations/exercise-01-threat-model-a-small-ml-system/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780052524476331448,
-      "size": 1683
+      "mtime_ns": 1780027814077840818,
+      "size": 16943
     },
-    "modules/mod-006-adversarial-ml/exercise-01-robustness-assessment/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-02-map-system-to-owasp-ml-top-10/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780053054838269315,
-      "size": 11486
+      "mtime_ns": 1780027827537632432,
+      "size": 12478
     },
-    "modules/mod-006-adversarial-ml/exercise-02-defense-plan/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-03-mitre-atlas-walkthrough/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780053064781451500,
-      "size": 10836
+      "mtime_ns": 1780027840574097267,
+      "size": 17872
     },
-    "modules/mod-006-adversarial-ml/exercise-03-poisoning-detection/SOLUTION.md": {
+    "modules/mod-001-ml-security-foundations/exercise-04-security-architecture-review/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780053082994507973,
-      "size": 11577
+      "mtime_ns": 1780027853363899254,
+      "size": 14592
     },
-    "modules/mod-006-adversarial-ml/exercise-04-dp-sgd-configuration/SOLUTION.md": {
-      "findings": [
-        {
-          "excerpt": "| Config | `max_grad_norm` chosen with rationale; not left at a placeholder | 2 |",
-          "line": 227,
-          "message": "Found placeholder marker.",
-          "path": "modules/mod-006-adversarial-ml/exercise-04-dp-sgd-configuration/SOLUTION.md",
-          "severity": "warning",
-          "type": "placeholder"
-        }
-      ],
-      "mtime_ns": 1780053093374350187,
-      "size": 12096
-    },
-    "modules/mod-006-adversarial-ml/exercise-04-dp-sgd-configuration/train_dp.py": {
+    "modules/mod-001-ml-security-foundations/exercise-05-defense-in-depth-design/SOLUTION.md": {
       "findings": [],
-      "mtime_ns": 1780052836081594677,
-      "size": 3109
-    },
-    "modules/mod-006-adversarial-ml/exercise-05-llm-safety-pipeline/SOLUTION.md": {
-      "findings": [
-        {
-          "excerpt": "placeholder model client. Each layer is its own function so",
-          "line": 22,
-          "message": "Found placeholder marker.",
-          "path": "modules/mod-006-adversarial-ml/exercise-05-llm-safety-pipeline/SOLUTION.md",
-          "severity": "warning",
-          "type": "placeholder"
-        },
-        {
-          "excerpt": "replaced with stable placeholders. The mapping from placeholder",
-          "line": 126,
-          "message": "Found placeholder marker.",
-          "path": "modules/mod-006-adversarial-ml/exercise-05-llm-safety-pipeline/SOLUTION.md",
-          "severity": "warning",
-          "type": "placeholder"
-        }
-      ],
-      "mtime_ns": 1780053112654057113,
-      "size": 11428
-    },
-    "modules/mod-006-adversarial-ml/exercise-05-llm-safety-pipeline/pipeline.py": {
-      "findings": [],
-      "mtime_ns": 1780052960839698205,
-      "size": 11173
+      "mtime_ns": 1780027867310350000,
+      "size": 18781
     },
     "projects/README.md": {
       "findings": [],
@@ -252,6 +211,6 @@
       "size": 85
     }
   },
-  "generated_at": "2026-05-29T11:12:07Z",
+  "generated_at": "2026-05-29T04:11:11Z",
   "schema_version": 1
 }

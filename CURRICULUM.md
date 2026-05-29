@@ -21,4 +21,4 @@ Auto-appended by the AICG runner. One row per verified work item. Edit the rest 
 
 | Date | Work ID | Scope | Title |
 |---|---|---|---|
-| 2026-05-29 | `fill-mod-006-adversarial-ml-solutions` | `mod-006-adversarial-ml` | Fill mod-006-adversarial-ml module exercise solutions |
+| 2026-05-28 | `fill-mod-001-ml-security-foundations-solutions` | `mod-001-ml-security-foundations` | Fill mod-001-ml-security-foundations module exercise solutions |

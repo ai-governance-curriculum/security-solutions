@@ -86,3 +86,9 @@ are especially welcome — security content rots quickly.
 ## License
 
 See [`LICENSE`](LICENSE).
+
+
+---
+
+<!-- aicg:maintained-by -->
+Maintained by [VeriSwarm.ai](https://veriswarm.ai)
