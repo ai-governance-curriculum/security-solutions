@@ -1,0 +1,106 @@
+{
+  "curriculum_index_present": false,
+  "curriculum_md_present": true,
+  "findings": [
+    {
+      "message": "`CURRICULUM.md` does not reference project `project-1-zero-trust` that exists on disk.",
+      "path": "CURRICULUM.md#project-1-zero-trust",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "type": "nav_missing_reference"
+    },
+    {
+      "message": "`CURRICULUM.md` does not reference project `project-2-compliance` that exists on disk.",
+      "path": "CURRICULUM.md#project-2-compliance",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "type": "nav_missing_reference"
+    },
+    {
+      "message": "`CURRICULUM.md` does not reference project `project-3-adversarial-defense` that exists on disk.",
+      "path": "CURRICULUM.md#project-3-adversarial-defense",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "type": "nav_missing_reference"
+    },
+    {
+      "message": "`CURRICULUM.md` does not reference project `project-4-secure-cicd` that exists on disk.",
+      "path": "CURRICULUM.md#project-4-secure-cicd",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "type": "nav_missing_reference"
+    },
+    {
+      "message": "`CURRICULUM.md` does not reference project `project-5-security-operations` that exists on disk.",
+      "path": "CURRICULUM.md#project-5-security-operations",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "type": "nav_missing_reference"
+    }
+  ],
+  "gap_count": 5,
+  "generated_at": "2026-05-28T19:34:27Z",
+  "modules_on_disk": [],
+  "operation": "curriculum_nav_audit",
+  "projects_on_disk": [
+    "project-1-zero-trust",
+    "project-2-compliance",
+    "project-3-adversarial-defense",
+    "project-4-secure-cicd",
+    "project-5-security-operations"
+  ],
+  "repo": "ai-infra-security-solutions",
+  "schema_version": 1,
+  "work_items": [
+    {
+      "details": "`CURRICULUM.md` does not reference project `project-1-zero-trust` that exists on disk.",
+      "id": "nav-nav-missing-reference-curriculum-md-project-1-zero-trust",
+      "path": "CURRICULUM.md#project-1-zero-trust",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "subtype": "nav_missing_reference",
+      "title": "`CURRICULUM.md` does not reference project `project-1-zero-trust` that exists on disk.",
+      "type": "curriculum_nav_drift"
+    },
+    {
+      "details": "`CURRICULUM.md` does not reference project `project-2-compliance` that exists on disk.",
+      "id": "nav-nav-missing-reference-curriculum-md-project-2-compliance",
+      "path": "CURRICULUM.md#project-2-compliance",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "subtype": "nav_missing_reference",
+      "title": "`CURRICULUM.md` does not reference project `project-2-compliance` that exists on disk.",
+      "type": "curriculum_nav_drift"
+    },
+    {
+      "details": "`CURRICULUM.md` does not reference project `project-3-adversarial-defense` that exists on disk.",
+      "id": "nav-nav-missing-reference-curriculum-md-project-3-adversarial-defense",
+      "path": "CURRICULUM.md#project-3-adversarial-defense",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "subtype": "nav_missing_reference",
+      "title": "`CURRICULUM.md` does not reference project `project-3-adversarial-defense` that exists on disk.",
+      "type": "curriculum_nav_drift"
+    },
+    {
+      "details": "`CURRICULUM.md` does not reference project `project-4-secure-cicd` that exists on disk.",
+      "id": "nav-nav-missing-reference-curriculum-md-project-4-secure-cicd",
+      "path": "CURRICULUM.md#project-4-secure-cicd",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "subtype": "nav_missing_reference",
+      "title": "`CURRICULUM.md` does not reference project `project-4-secure-cicd` that exists on disk.",
+      "type": "curriculum_nav_drift"
+    },
+    {
+      "details": "`CURRICULUM.md` does not reference project `project-5-security-operations` that exists on disk.",
+      "id": "nav-nav-missing-reference-curriculum-md-project-5-security-operations",
+      "path": "CURRICULUM.md#project-5-security-operations",
+      "repo": "ai-infra-security-solutions",
+      "severity": "warning",
+      "subtype": "nav_missing_reference",
+      "title": "`CURRICULUM.md` does not reference project `project-5-security-operations` that exists on disk.",
+      "type": "curriculum_nav_drift"
+    }
+  ]
+}
