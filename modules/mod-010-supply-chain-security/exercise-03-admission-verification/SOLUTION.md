@@ -50,7 +50,7 @@ spec:
   authorities:
     - name: ci-keyless
       keyless:
-        url: https://fulcio.sigstore.dev
+        url: http://web.archive.org/web/20211013131114/https://fulcio.sigstore.dev/
         identities:
           - issuer: https://token.actions.githubusercontent.com
             subjectRegExp: >-
