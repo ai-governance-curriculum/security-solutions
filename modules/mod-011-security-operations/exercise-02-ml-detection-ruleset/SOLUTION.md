@@ -46,7 +46,7 @@ before they should be promoted to `stable`.
 
 Before merging into production, confirm each AML.T#### technique
 ID against the current ATLAS technique list at
-<https://atlas.mitre.org/techniques/>. ATLAS reorganizes
+<http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/>. ATLAS reorganizes
 sub-techniques periodically; the IDs above reflect the snapshot
 as of the curriculum source date and should be re-checked.
 
@@ -64,7 +64,7 @@ description: |
   Catches the staging phase of a model-extraction attack as
   described in MITRE ATLAS technique "Extract ML Model".
 references:
-  - https://atlas.mitre.org/techniques/AML.T0024
+  - http://web.archive.org/web/20231221220723/http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/AML.T0024/
   - https://owasp.org/www-project-machine-learning-security-top-10/
 author: smartrecs-soc
 date: 2026-05-29
@@ -123,7 +123,7 @@ description: |
   amplification attacks where an adversary spams expensive
   prompts to inflict financial damage on the platform.
 references:
-  - https://atlas.mitre.org/techniques/AML.T0034
+  - http://web.archive.org/web/20231221215221/http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/AML.T0034/
 author: smartrecs-soc
 date: 2026-05-29
 logsource:
@@ -174,7 +174,7 @@ description: |
   'ignore previous instructions', system-prompt impersonation,
   role-override strings). Companion to OWASP ML08:2023.
 references:
-  - https://atlas.mitre.org/techniques/AML.T0051.000
+  - http://web.archive.org/web/20240221223624/http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/AML.T0051.000/
   - https://owasp.org/www-project-machine-learning-security-top-10/
 author: smartrecs-soc
 date: 2026-05-29
@@ -230,7 +230,7 @@ description: |
   indirect prompt-injection class described by MITRE ATLAS
   AML.T0051.001 and OWASP ML08.
 references:
-  - https://atlas.mitre.org/techniques/AML.T0051.001
+  - http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/AML.T0051.001
 author: smartrecs-soc
 date: 2026-05-29
 logsource:
@@ -282,7 +282,7 @@ description: |
   (/var/lib/models, s3://smartrecs-models). Possible model-
   poisoning or supply-chain attack.
 references:
-  - https://atlas.mitre.org/techniques/AML.T0020
+  - http://web.archive.org/web/20231221220012/http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/AML.T0020/
 author: smartrecs-soc
 date: 2026-05-29
 logsource:
@@ -336,7 +336,7 @@ description: |
   records matching personally identifying patterns. Possible
   membership-inference attack against training data.
 references:
-  - https://atlas.mitre.org/techniques/AML.T0024
+  - http://web.archive.org/web/20231221220723/http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/AML.T0024/
 author: smartrecs-soc
 date: 2026-05-29
 logsource:
@@ -383,7 +383,7 @@ description: |
   feature, or label distribution shifts more than 5 percentage
   points. Input to the poisoning-detection workflow.
 references:
-  - https://atlas.mitre.org/techniques/AML.T0020
+  - http://web.archive.org/web/20231221220012/http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/AML.T0020/
   - https://owasp.org/www-project-machine-learning-security-top-10/
 author: smartrecs-soc
 date: 2026-05-29
@@ -436,7 +436,7 @@ description: |
   for a sustained 6-hour window. Possible poisoning,
   distribution drift, or upstream data pipeline failure.
 references:
-  - https://atlas.mitre.org/techniques/AML.T0031
+  - http://web.archive.org/web/20231227104237/https://atlas.mitre.org/techniques/AML.T0031
 author: smartrecs-soc
 date: 2026-05-29
 logsource:
