@@ -443,9 +443,9 @@ Pass = ≥16 / 20 with no zero scores.
 - Envoy — TLS:
   https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/security/ssl
 - IETF RFC 8446 — TLS 1.3:
-  https://www.rfc-editor.org/rfc/rfc8446
+  http://web.archive.org/web/20260515074752/https://www.rfc-editor.org/rfc/rfc8446
 - IETF RFC 9110 — HTTP semantics (host, framing):
-  https://www.rfc-editor.org/rfc/rfc9110
+  http://web.archive.org/web/20260520194653/https://www.rfc-editor.org/rfc/rfc9110
 - OWASP API Security Top 10 (referenced for API-gateway controls
   pattern):
   https://owasp.org/API-Security/
