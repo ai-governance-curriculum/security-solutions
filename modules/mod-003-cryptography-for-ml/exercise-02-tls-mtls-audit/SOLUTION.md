@@ -311,9 +311,9 @@ Score 0 / 1 / 2; pass at ≥80%.
 - NIST SP 800-131A Rev. 2 (algorithm transitions; SHA-1 disallowed for
   signatures) — https://csrc.nist.gov/pubs/sp/800/131/a/r2/final
 - RFC 8446, *The Transport Layer Security (TLS) Protocol Version 1.3* —
-  https://www.rfc-editor.org/rfc/rfc8446
+  https://www.rfc-editor.org/info/rfc8446/
 - RFC 5746, *TLS Renegotiation Indication Extension* —
-  https://www.rfc-editor.org/rfc/rfc5746
+  https://www.rfc-editor.org/info/rfc5746/
 - RFC 6066 (SNI), RFC 6960 (OCSP), RFC 7919 (FFDHE) — IETF Datatracker
 - CA/Browser Forum *Baseline Requirements* (398-day max validity) —
   https://cabforum.org/baseline-requirements-documents/
