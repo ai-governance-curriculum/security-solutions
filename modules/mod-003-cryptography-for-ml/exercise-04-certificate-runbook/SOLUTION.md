@@ -300,11 +300,11 @@ Score 0 / 1 / 2; pass at ≥80%.
 ## 6. References
 
 - RFC 5280, *Internet X.509 PKI Certificate and CRL Profile* —
-  https://www.rfc-editor.org/rfc/rfc5280
+  https://www.rfc-editor.org/info/rfc5280/
 - RFC 6960, *X.509 PKI Online Certificate Status Protocol (OCSP)* —
-  https://www.rfc-editor.org/rfc/rfc6960
+  https://www.rfc-editor.org/info/rfc6960/
 - RFC 8555, *ACME (Automatic Certificate Management Environment)* —
-  https://www.rfc-editor.org/rfc/rfc8555
+  https://www.rfc-editor.org/info/rfc8555/
 - CA/Browser Forum Baseline Requirements —
   https://cabforum.org/baseline-requirements-documents/
 - NIST SP 800-52 Rev. 2 (TLS guidance) —
