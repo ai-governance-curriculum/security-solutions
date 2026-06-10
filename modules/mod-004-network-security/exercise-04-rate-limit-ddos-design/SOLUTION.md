@@ -313,9 +313,9 @@ Pass = ≥16 / 20 with no zero scores.
 - Envoy ratelimit service (descriptors / domains):
   https://github.com/envoyproxy/ratelimit
 - IETF RFC 6585 — HTTP 429 Too Many Requests:
-  https://www.rfc-editor.org/rfc/rfc6585
+  https://www.rfc-editor.org/info/rfc6585/
 - IETF RFC-Editor draft on RateLimit headers (track per-IETF docs as
-  the standard evolves): https://www.rfc-editor.org/rfc/rfc9568
+  the standard evolves): https://www.rfc-editor.org/info/rfc9568/
   (verify the current status of the RateLimit header draft against the
   IETF datatracker at adoption time).
 - Kubernetes — Service load-balancer source ranges (for trusting LB
