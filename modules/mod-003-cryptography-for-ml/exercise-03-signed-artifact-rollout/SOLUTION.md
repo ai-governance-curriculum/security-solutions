@@ -330,7 +330,7 @@ Score 0 / 1 / 2; pass at ≥80%.
 - TUF (The Update Framework) — https://theupdateframework.io/
 - OCI Artifacts / Distribution spec — https://github.com/opencontainers/distribution-spec
 - Kyverno `verifyImages` reference —
-  https://kyverno.io/docs/writing-policies/verify-images/sigstore/
+  http://web.archive.org/web/20250415133554/https://kyverno.io/docs/writing-policies/verify-images/sigstore/
 - Sigstore policy-controller — https://docs.sigstore.dev/policy-controller/overview/
 - OWASP Machine Learning Security Top 10 (ML06 — AI Supply Chain
   Attacks) — https://owasp.org/www-project-machine-learning-security-top-10/
