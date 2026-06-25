@@ -1,7 +1,7 @@
 # mod-010-supply-chain-security — Solutions
 
 Reference solutions for the supply-chain-security module of
-[`ai-infra-security-learning`](https://github.com/ai-infra-curriculum/ai-infra-security-learning).
+[`ai-infra-security-learning`](https://github.com/ai-governance-curriculum/security-learning).
 
 The module covers four supply-chain concerns specific to ML systems:
 

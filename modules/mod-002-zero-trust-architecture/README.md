@@ -1,7 +1,7 @@
 # Module 02 — Zero-Trust Architecture (Solutions)
 
 Reference solutions for the five exercises in
-[`ai-infra-security-learning/lessons/mod-002-zero-trust-architecture/exercises/`](https://github.com/ai-infra-curriculum/ai-infra-security-learning/tree/main/lessons/mod-002-zero-trust-architecture/exercises).
+[`ai-infra-security-learning/lessons/mod-002-zero-trust-architecture/exercises/`](https://github.com/ai-governance-curriculum/security-learning/tree/main/lessons/mod-002-zero-trust-architecture/exercises).
 
 | # | Exercise | Output type | Solution |
 |---|---|---|---|
@@ -13,7 +13,7 @@ Reference solutions for the five exercises in
 
 The reference SmartRecs system used by Exercises 1, 2, 3, and 5 is
 defined in
-[`mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md`](https://github.com/ai-infra-curriculum/ai-infra-security-learning/blob/main/lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md).
+[`mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md`](https://github.com/ai-governance-curriculum/security-learning/blob/main/lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md).
 Exercise 4 is independent — it uses a multi-team platform scenario
 defined inline in the exercise file.
 

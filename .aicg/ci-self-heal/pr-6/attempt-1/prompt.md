@@ -11,7 +11,7 @@ satisfy each failing check.
 
 ### 1. `Markdown lint` (failure)
 
-- Details: <https://github.com/ai-infra-curriculum/ai-infra-security-solutions/actions/runs/26626204497/job/78463457167>
+- Details: <https://github.com/ai-governance-curriculum/security-solutions/actions/runs/26626204497/job/78463457167>
 - Annotations:
   - `.github:2` (warning): Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, DavidAnson/markdownlint-cli2-action@v16. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner 
   - `.github:17` (failure): Failed with exit code: 1

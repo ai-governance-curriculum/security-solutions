@@ -4,7 +4,7 @@
 > 🎓 Part of the **free, open-source AI Infrastructure Curriculum**. For live, instructor-led **[cohorts](https://ai-infra-curriculum.github.io/junior.html)** and **[team programs](https://ai-infra-curriculum.github.io/teams.html)**, visit **[ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/)**.
 <!-- /aicg:site-banner -->
 
-Reference solutions for [`ai-infra-security-learning`](https://github.com/ai-infra-curriculum/ai-infra-security-learning).
+Reference solutions for [`ai-infra-security-learning`](https://github.com/ai-governance-curriculum/security-learning).
 
 The security track covers securing ML infrastructure, models, data, and
 pipelines end-to-end. The deliverables are a mix of working code,
@@ -42,7 +42,7 @@ falco/istio policy bundles, and a SOLUTION.md design-rationale document:
 The capstone synthesis exercise from the learning track (`mod-012`,
 NorthBridge Health scenario) is graded against rubrics rather than a
 single-reference implementation — see the
-[learning repo](https://github.com/ai-infra-curriculum/ai-infra-security-learning).
+[learning repo](https://github.com/ai-governance-curriculum/security-learning).
 
 ## Module Solutions
 

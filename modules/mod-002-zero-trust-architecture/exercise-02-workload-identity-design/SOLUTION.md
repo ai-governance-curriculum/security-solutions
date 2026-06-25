@@ -42,7 +42,7 @@ should produce.
 **Date:** 2026-05
 **Trust domain:** `spiffe://smartrecs.internal`
 **Reference:** Exercise 02 of module 02
-([learning file](https://github.com/ai-infra-curriculum/ai-infra-security-learning/blob/main/lessons/mod-002-zero-trust-architecture/exercises/exercise-02-workload-identity-design.md)).
+([learning file](https://github.com/ai-governance-curriculum/security-learning/blob/main/lessons/mod-002-zero-trust-architecture/exercises/exercise-02-workload-identity-design.md)).
 
 #### Trust domain
 

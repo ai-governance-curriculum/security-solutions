@@ -11,7 +11,7 @@ satisfy each failing check.
 
 ### 1. `Markdown lint` (failure)
 
-- Details: <https://github.com/ai-infra-curriculum/ai-infra-security-solutions/actions/runs/26621513019/job/78448331479>
+- Details: <https://github.com/ai-governance-curriculum/security-solutions/actions/runs/26621513019/job/78448331479>
 - Annotations:
   - `.github:2` (warning): Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, DavidAnson/markdownlint-cli2-action@v16. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner 
   - `modules/mod-002-zero-trust-architecture/exercise-05-zero-trust-roadmap/SOLUTION.md:51` (failure): modules/mod-002-zero-trust-architecture/exercise-05-zero-trust-roadmap/SOLUTION.md:51:32 MD049/emphasis-style Emphasis style [Expected: asterisk; Actual: underscore] https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md049.md

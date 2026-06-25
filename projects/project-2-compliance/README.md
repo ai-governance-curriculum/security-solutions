@@ -1,6 +1,6 @@
 # Project 2 Solution — Compliance Framework
 
-Reference for [learning project 2](https://github.com/ai-infra-curriculum/ai-infra-security-learning/tree/main/projects/project-2-compliance).
+Reference for [learning project 2](https://github.com/ai-governance-curriculum/security-learning/tree/main/projects/project-2-compliance).
 
 The full FastAPI implementation lives in [mlops-learning/projects/project-4-governance](https://github.com/ai-infra-curriculum/ai-infra-mlops-learning/tree/main/projects/project-4-governance):
 - `src/audit/log.py` — tamper-evident hash chain

@@ -46,7 +46,7 @@ not as commentary.
 **Date:** 2026-05
 **System under analysis:** SmartRecs recommendation platform as
 described in
-[`mod-001 exercise-01`](https://github.com/ai-infra-curriculum/ai-infra-security-learning/blob/main/lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md).
+[`mod-001 exercise-01`](https://github.com/ai-governance-curriculum/security-learning/blob/main/lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md).
 
 **Reference framework:** NIST SP 800-207 *Zero Trust Architecture*
 (https://csrc.nist.gov/pubs/sp/800/207/final), compressed to the
@@ -333,7 +333,7 @@ useless to a roadmap.
   zero-trust).
 - **Module 01 exercise 01** — SmartRecs system description
   and threat model.
-  [`lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md`](https://github.com/ai-infra-curriculum/ai-infra-security-learning/blob/main/lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md)
+  [`lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md`](https://github.com/ai-governance-curriculum/security-learning/blob/main/lessons/mod-001-ml-security-foundations/exercises/exercise-01-threat-model-a-small-ml-system.md)
 - **MITRE ATLAS.** https://atlas.mitre.org/
   Useful when mapping the residual-threat list to named
   tactics (e.g., model extraction → AML.T0044).

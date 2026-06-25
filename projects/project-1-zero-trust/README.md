@@ -1,6 +1,6 @@
 # Project 1 Solution — Zero-Trust ML Infrastructure
 
-Reference for [learning project 1](https://github.com/ai-infra-curriculum/ai-infra-security-learning/tree/main/projects/project-1-zero-trust).
+Reference for [learning project 1](https://github.com/ai-governance-curriculum/security-learning/tree/main/projects/project-1-zero-trust).
 
 ## Components + where to find them
 

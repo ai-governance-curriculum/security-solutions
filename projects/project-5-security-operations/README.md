@@ -1,6 +1,6 @@
 # Project 5 Solution — Security Operations Center
 
-Reference for [learning project 5](https://github.com/ai-infra-curriculum/ai-infra-security-learning/tree/main/projects/project-5-security-operations).
+Reference for [learning project 5](https://github.com/ai-governance-curriculum/security-learning/tree/main/projects/project-5-security-operations).
 
 ## Layout
 
