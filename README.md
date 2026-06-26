@@ -4,6 +4,10 @@
 > 🎓 Part of the free, open-source **AI Career Curriculum** ecosystem — [Infrastructure](https://github.com/ai-infra-curriculum) · [ML Engineering](https://github.com/ml-engineering-curriculum) · [AI Engineering](https://github.com/ai-engineering-curriculum) · [Governance](https://github.com/ai-governance-curriculum). Live cohorts &amp; team programs: **[ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/)**.
 <!-- /aicg:site-banner -->
 
+<!-- aicg:sponsor -->
+> 💜 **[Sponsor this curriculum](https://github.com/sponsors/ai-governance-curriculum)** — sponsorships keep the whole open-source AI Career Curriculum free and moving.
+<!-- /aicg:sponsor -->
+
 Reference solutions for [`ai-infra-security-learning`](https://github.com/ai-governance-curriculum/security-learning).
 
 The security track covers securing ML infrastructure, models, data, and
