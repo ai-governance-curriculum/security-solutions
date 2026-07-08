@@ -15,6 +15,12 @@ This document defines the expected structure for `ai-infra-security-solutions`.
 - Project slugs MUST match the paired learning repository.
 - Solutions are reference implementations; learners attempt projects first.
 
+## Modules
+
+| Module | Solution |
+|---|---|
+| [`mod-010-supply-chain-security`](modules/mod-010-supply-chain-security) | Reference solutions for the supply-chain-security module |
+
 ## Shipped (autonomous)
 
 Auto-appended by the AICG runner. One row per verified work item. Edit the rest of the document by hand; this section is additive only.
