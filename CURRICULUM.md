@@ -20,6 +20,7 @@ This document defines the expected structure for `ai-infra-security-solutions`.
 | Module | Solution |
 |---|---|
 | [`mod-010-supply-chain-security`](modules/mod-010-supply-chain-security) | Reference solutions for the supply-chain-security module |
+| [`mod-012-capstone`](modules/mod-012-capstone) | Reference solutions for the capstone module |
 
 ## Shipped (autonomous)
 
