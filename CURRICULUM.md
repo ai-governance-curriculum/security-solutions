@@ -15,6 +15,12 @@ This document defines the expected structure for `ai-infra-security-solutions`.
 - Project slugs MUST match the paired learning repository.
 - Solutions are reference implementations; learners attempt projects first.
 
+## Projects
+
+| Project | Solution |
+|---|---|
+| [`project-1-zero-trust`](projects/project-1-zero-trust) | Reference solution for the zero-trust project |
+
 ## Modules
 
 | Module | Solution |
