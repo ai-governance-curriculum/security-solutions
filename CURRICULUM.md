@@ -20,6 +20,7 @@ This document defines the expected structure for `ai-infra-security-solutions`.
 | Project | Solution |
 |---|---|
 | [`project-1-zero-trust`](projects/project-1-zero-trust) | Reference solution for the zero-trust project |
+| [`project-2-compliance`](projects/project-2-compliance) | Reference solution for the compliance project |
 
 ## Modules
 
