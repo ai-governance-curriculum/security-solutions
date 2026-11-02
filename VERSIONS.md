@@ -1,5 +1,11 @@
 # Versions
 
+## 2026-08
+
+| Date | Work ID | Scope | Title |
+|---|---|---|---|
+| 2026-08-04 | `bootstrap-security-role-packet` | `security-learning` + `security-solutions` | Bootstrap curriculum packet for the AI/ML Security & Governance Engineer role (level 35). Paired-learning-repo authored `.aicg/job-requirements.json`, `.aicg/curriculum-plan.json` (12 modules / 180 h + 3 projects / 125 h = 305 h), `JOB_REQUIREMENTS.md`, `PREREQUISITES.md`, `VERSIONS.md`, refreshed `CURRICULUM.md` + `README.md`. Solutions repo updated `SOLUTIONS_INDEX.md` with the mod-101..mod-112 plan and the migration map from the legacy mod-001..mod-012 solutions. Live posting evidence deferred to the next research cycle (WebSearch / WebFetch not authorised in the bootstrap session). |
+
 ## 2026-05
 
 | Date | Work ID | Scope | Title |
